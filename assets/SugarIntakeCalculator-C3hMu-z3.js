@@ -1,0 +1,2 @@
+import{j as t}from"./react-vendor-dPJNWl6a.js";import{C as r}from"./CookingNutritionCalculatorPage-C9TMYQka.js";import"./home-sections-BL7QUrV8.js";import"./router-B-zBcJCg.js";import"./SEOHead-BkI9GR3E.js";import"./index-GdrkE-GI.js";import"./AdPlaceholder-Dgv3myon.js";import"./FAQItem-B9eKBHzC.js";import"./RelatedTools-DybcpoQW.js";import"./ShareButton-DFkVoELh.js";function c(){return t.jsx(r,{slug:"sugar-intake-calculator"})}export{c as default};
+//# sourceMappingURL=SugarIntakeCalculator-C3hMu-z3.js.map

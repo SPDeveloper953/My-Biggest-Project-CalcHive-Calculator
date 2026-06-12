@@ -1,0 +1,7 @@
+# Cloudflare Pages / Netlify - HTTPS and SPA routing
+http://calchive.site/*    https://www.calchive.site/:splat    301!
+http://www.calchive.site/*    https://www.calchive.site/:splat    301!
+http://calchive.netlify.app/*    https://www.calchive.site/:splat    301!
+http://www.calchive.netlify.app/*    https://www.calchive.site/:splat    301!
+/assets/*    /assets/:splat    200
+/*    /index.html    200

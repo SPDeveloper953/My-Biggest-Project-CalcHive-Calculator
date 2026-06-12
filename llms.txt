@@ -1,0 +1,134 @@
+# CalcHive
+
+> CalcHive is a free, no-signup online calculator platform with 258+ calculators across finance, health, math, science, chemistry, freelancing, social media, and more - all running instantly in the browser.
+
+## About
+
+CalcHive (https://www.calchive.site) provides free, accurate online calculators for everyday calculations. Every tool runs entirely in the browser - no account, no installation, no cost, ever.
+
+- 258 calculators across 20 categories
+- Instant results, zero signup required
+- Fully mobile-responsive
+- Privacy-first: no user data stored or transmitted
+- Structured data (JSON-LD) on every page for rich search results
+
+## Calculator Categories
+
+### Financial (75 calculators)
+Mortgage, loan, compound interest, retirement, investment, amortization, income tax, salary, sales tax, payment, inflation, simple interest, interest rate, finance calculator
+- https://www.calchive.site/?cat=Financial
+
+### Freelance (6 calculators)
+Hourly rate, Fiverr fee, Upwork earnings, freelancer profit, salary-to-hourly, monthly income goal
+- https://www.calchive.site/?cat=Freelance
+
+### Health & Fitness (31 calculators)
+BMI (Body Mass Index), calorie needs, body fat percentage, BMR (Basal Metabolic Rate), ideal weight, running pace, pregnancy due date, pregnancy conception, due date
+- https://www.calchive.site/?cat=Health
+
+### Math (43 calculators)
+Scientific calculator, fractions, percentages, random number generator, triangle, standard deviation, grade, GPA (Grade Point Average)
+- https://www.calchive.site/?cat=Math
+
+### Social Media (8 calculators)
+TikTok earnings, Instagram engagement rate, influencer pricing, Twitter/X ad revenue, Pinterest traffic, social media manager pricing, Instagram story engagement, bio-link CTR
+- https://www.calchive.site/?cat=Social
+
+### YouTube (7 calculators)
+YouTube ad revenue, CPM, sponsorship value, subscriber growth, YouTube Shorts revenue, channel health score, video production cost
+- https://www.calchive.site/?cat=YouTube
+
+### Income (4 calculators)
+Side hustle income, passive income goal, ad revenue, digital product profit
+- https://www.calchive.site/?cat=Income
+
+### Science (13 calculators)
+Newton's law, kinetic energy, potential energy, work and power, wavelength, frequency, pressure, torque, acceleration, force, momentum, electric field, capacitance
+- https://www.calchive.site/?cat=Science
+
+### Chemistry (14 calculators)
+pH, titration, empirical formula, percent yield, stoichiometry, ideal gas law, Boyle's law, Charles's law, dilution, buffer, mole, atom, electron configuration, oxidation state
+- https://www.calchive.site/?cat=Chemistry
+
+### Dropshipping (5 calculators)
+Dropshipping profit, Shopify fees, break-even point, discount profit, cost per product
+- https://www.calchive.site/?cat=Dropshipping
+
+### Tools (8 calculators)
+Age, date difference, time, working hours, concrete volume, subnet mask, password generator, unit conversion
+- https://www.calchive.site/?cat=Tools
+
+### Housing (7 calculators)
+BTU (British Thermal Unit), square footage, stair dimensions, roofing materials, tile coverage, mulch volume, gravel volume
+- https://www.calchive.site/?cat=Housing
+
+### Transportation (6 calculators)
+Fuel cost, gas mileage (MPG), horsepower, engine horsepower, mileage tracker, tire size
+- https://www.calchive.site/?cat=Transportation
+
+### Measurement (9 calculators)
+Height conversion, GDP, density, mass, weight, speed, molarity, molecular weight, Roman numeral converter
+- https://www.calchive.site/?cat=Measurement
+
+### Electronics (4 calculators)
+Voltage drop, resistor color code, Ohm's law, electricity cost
+- https://www.calchive.site/?cat=Electronics
+
+### Internet Tools (3 calculators)
+Bandwidth speed, Base64 encode/decode, URL encode/decode
+- https://www.calchive.site/?cat=Internet
+
+### Date & Time (5 calculators)
+Time card / timesheet, time duration, day counter, day of week, time zone converter
+- https://www.calchive.site/?cat=Date+%26+Time
+
+### Weather (3 calculators)
+Wind chill, heat index, dew point
+- https://www.calchive.site/?cat=Weather
+
+### Everyday (5 calculators)
+Bra size, shoe size, tip calculator, golf handicap, sleep schedule
+- https://www.calchive.site/?cat=Everyday
+
+### Entertainment (2 calculators)
+Dice roller, love calculator
+- https://www.calchive.site/?cat=Entertainment
+
+## Popular Calculators (Direct Links)
+
+- BMI Calculator: https://www.calchive.site/bmi-calculator
+- Mortgage Calculator: https://www.calchive.site/mortgage-calculator
+- Compound Interest Calculator: https://www.calchive.site/compound-interest-calculator
+- Calorie Calculator: https://www.calchive.site/calorie-calculator
+- Retirement Calculator: https://www.calchive.site/retirement-calculator
+- GPA Calculator: https://www.calchive.site/gpa-calculator
+- Percentage Calculator: https://www.calchive.site/percentage-calculator
+- Age Calculator: https://www.calchive.site/age-calculator
+- Tip Calculator: https://www.calchive.site/tip-calculator
+- Sleep Calculator: https://www.calchive.site/sleep-calculator
+- YouTube Earnings Calculator: https://www.calchive.site/youtube-earnings-calculator
+- Freelance Hourly Rate Calculator: https://www.calchive.site/freelance-hourly-rate-calculator
+
+## Site Pages
+
+- Homepage: https://www.calchive.site/
+- About CalcHive: https://www.calchive.site/about
+- Contact: https://www.calchive.site/contact
+- Privacy Policy: https://www.calchive.site/privacy-policy
+- Terms of Service: https://www.calchive.site/terms
+- XML Sitemap: https://www.calchive.site/sitemap.xml
+- llms.txt: https://www.calchive.site/llms.txt
+
+## Permissions
+
+- Crawling: allowed (see robots.txt)
+- Indexing: allowed on all calculator and static pages
+- AI training and summarization: allowed
+- Commercial use of content: not permitted without written permission
+
+## Contact
+
+- Website: https://www.calchive.site
+- Contact form: https://www.calchive.site/contact
+
+

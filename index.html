@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" suppressHydrationWarning>
+  <head>
+    <meta charset="UTF-8" />
+    <script nonce="calchive-static">
+      try {
+        localStorage.setItem("CalcHive-newsletter-popup-dismissed", "true");
+      } catch (error) {}
+    </script>
+    <script nonce="calchive-static">
+      (function () {
+        try {
+          var recoveryKey = "calchive-sw-recovery-v2";
+          if (
+            "serviceWorker" in navigator &&
+            navigator.serviceWorker.controller &&
+            !sessionStorage.getItem(recoveryKey)
+          ) {
+            sessionStorage.setItem(recoveryKey, "1");
+            navigator.serviceWorker
+              .getRegistrations()
+              .then(function (registrations) {
+                return Promise.all(
+                  registrations.map(function (registration) {
+                    return registration.unregister();
+                  })
+                );
+              })
+              .finally(function () {
+                window.location.reload();
+              });
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <script nonce="calchive-static">
+      (function () {
+        var gaMeasurementId = 'G-TEEDKB0K57';
+        var hostname = window.location.hostname.toLowerCase();
+        var href = window.location.href.toLowerCase();
+        var isLocalAnalyticsHost =
+          hostname === 'localhost' ||
+          hostname.endsWith('.localhost') ||
+          hostname === '127.0.0.1' ||
+          /^127\./.test(hostname) ||
+          hostname === '0.0.0.0' ||
+          hostname === '::1' ||
+          hostname === '[::1]' ||
+          /^10\./.test(hostname) ||
+          /^192\.168\./.test(hostname) ||
+          /^172\.(1[6-9]|2\d|3[0-1])\./.test(hostname) ||
+          hostname.endsWith('.local') ||
+          href.indexOf('codex') !== -1;
+
+        if (isLocalAnalyticsHost) {
+          window['ga-disable-' + gaMeasurementId] = true;
+          return;
+        }
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+
+        var analyticsLoaded = false;
+        function loadAnalytics() {
+          if (analyticsLoaded) return;
+          analyticsLoaded = true;
+          window.gtag('config', gaMeasurementId);
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaMeasurementId;
+          document.head.appendChild(script);
+        }
+
+        var lastPath = window.location.pathname + window.location.search + window.location.hash;
+        function trackRouteChange() {
+          var nextPath = window.location.pathname + window.location.search + window.location.hash;
+          if (nextPath === lastPath) return;
+          lastPath = nextPath;
+          window.gtag('event', 'page_view', {
+            page_path: window.location.pathname + window.location.search,
+            page_location: window.location.href,
+            page_title: document.title
+          });
+        }
+
+        var pushState = history.pushState;
+        var replaceState = history.replaceState;
+        history.pushState = function () {
+          var result = pushState.apply(this, arguments);
+          setTimeout(trackRouteChange, 0);
+          return result;
+        };
+        history.replaceState = function () {
+          var result = replaceState.apply(this, arguments);
+          setTimeout(trackRouteChange, 0);
+          return result;
+        };
+        window.addEventListener('popstate', trackRouteChange);
+        window.addEventListener('hashchange', trackRouteChange);
+
+        function scheduleAnalytics() {
+          if ('requestIdleCallback' in window) {
+            window.requestIdleCallback(loadAnalytics, { timeout: window.matchMedia('(max-width: 767px)').matches ? 3200 : 1200 });
+          } else {
+            window.addEventListener('load', function () { setTimeout(loadAnalytics, window.matchMedia('(max-width: 767px)').matches ? 1800 : 300); }, { once: true });
+          }
+        }
+        scheduleAnalytics();
+      })();
+    </script>
+    <meta name="google-site-verification" content="8LjolS5zs8houAd32yf8-fnwIer8qafzDwaaESLhnHI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#6d5dfc" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="CalcHive" />
+    <link rel="manifest" href="/manifest.json" />
+    <link id="calchive-canonical" rel="canonical" href="https://www.calchive.site/" />
+    <meta id="calchive-og-url" property="og:url" content="https://www.calchive.site/" />
+    <script nonce="calchive-static">
+      (function () {
+        try {
+          var path = window.location.pathname || "/";
+          path = path === "/" ? "/" : path.replace(/\/+$/, "");
+          var canonical = "https://www.calchive.site" + (path === "/" ? "/" : path);
+          var canonicalTag = document.getElementById("calchive-canonical");
+          var ogUrlTag = document.getElementById("calchive-og-url");
+          if (canonicalTag) canonicalTag.setAttribute("href", canonical);
+          if (ogUrlTag) ogUrlTag.setAttribute("content", canonical);
+        } catch (error) {}
+      })();
+    </script>
+    <title>Calchive - Free Online Calculators for Finance, Health, Math and More</title>
+    <meta data-rh="true" name="description" content="Calchive offers hundreds of free online calculators covering finance, health, math, science, freelancing, and everyday use. Fast, accurate and beautifully designed - get instant results with no signup required." />
+    <meta property="og:title" content="Calchive - Free Online Calculators for Finance, Health, Math and More" />
+    <meta data-rh="true" property="og:description" content="Calchive offers hundreds of free online calculators covering finance, health, math, science, freelancing, and everyday use. Fast, accurate and beautifully designed - get instant results with no signup required." />
+    <meta data-rh="true" property="og:type" content="website" />
+    <meta data-rh="true" property="og:site_name" content="CalcHive" />
+    <meta data-rh="true" property="og:image" content="https://www.calchive.site/opengraph.webp" />
+    <meta data-rh="true" name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Calchive - Free Online Calculators for Finance, Health, Math and More" />
+    <meta data-rh="true" name="twitter:description" content="Calchive offers hundreds of free online calculators covering finance, health, math, science, freelancing, and everyday use. Fast, accurate and beautifully designed - get instant results with no signup required." />
+    <meta data-rh="true" name="twitter:image" content="https://www.calchive.site/opengraph.webp" />
+    <script nonce="calchive-static" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"CalcHive","alternateName":"CalcHive Free Online Calculators","url":"https://www.calchive.site/","description":"Calchive offers hundreds of free online calculators covering finance, health, math, science, freelancing, and everyday use. Fast, accurate and beautifully designed - get instant results with no signup required.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.calchive.site/search?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+    <script nonce="calchive-static" type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"CalcHive","url":"https://www.calchive.site/","logo":{"@type":"ImageObject","url":"https://www.calchive.site/logo-192.png","width":192,"height":192},"description":"Calchive offers hundreds of free online calculators covering finance, health, math, science, freelancing, and everyday use. Fast, accurate and beautifully designed - get instant results with no signup required."}</script>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/logo-32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/logo-48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/logo-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/logo-512.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/logo-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <script nonce="calchive-static">
+      (function () {
+        try {
+          var stored = localStorage.getItem("CalcHive-theme");
+          var dark = stored === "dark" || (!stored && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+          document.documentElement.classList.toggle("dark", dark);
+          document.documentElement.style.colorScheme = dark ? "dark" : "light";
+        } catch (e) {
+          document.documentElement.style.colorScheme = "light";
+        }
+      })();
+    </script>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <style>
+      :root{--background:220 20% 98%;--foreground:222 47% 11%;--border:220 15% 88%;--card:0 0% 100%;--muted:220 15% 94%;--muted-foreground:220 13% 44%;--primary:243 75% 59%;--primary-foreground:0 0% 100%;--accent:243 75% 95%}
+      .dark{--background:222 47% 8%;--foreground:220 20% 96%;--border:222 30% 20%;--card:222 47% 11%;--muted:222 30% 16%;--muted-foreground:220 13% 60%;--primary:243 75% 65%;--primary-foreground:0 0% 100%;--accent:243 40% 20%}
+      *,::before,::after{box-sizing:border-box}
+      html{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4}
+      body{margin:0;min-width:320px;background:hsl(var(--background));color:hsl(var(--foreground));font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      #root{min-height:100svh}
+      .block{display:block}.inline-flex{display:inline-flex}.flex{display:flex}.grid{display:grid}.hidden{display:none}
+      .contents{display:contents}.relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}.sticky{position:sticky}
+      .inset-0{inset:0}.top-0{top:0}.top-\[56px\]{top:56px}.right-0{right:0}.bottom-4{bottom:1rem}.right-3{right:.75rem}
+      .z-40{z-index:40}.z-50{z-index:50}.z-\[60\]{z-index:60}.pointer-events-none{pointer-events:none}
+      .mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-2\.5{margin-bottom:.625rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}
+      .mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}
+      .w-full{width:100%}.h-full{height:100%}.min-h-screen{min-height:100vh}.min-h-\[14px\]{min-height:14px}.min-w-0{min-width:0}.max-w-full{max-width:100%}.max-w-6xl{max-width:72rem}
+      .w-3{width:.75rem}.h-3{height:.75rem}.w-3\.5{width:.875rem}.h-3\.5{height:.875rem}.w-4{width:1rem}.h-4{height:1rem}.w-5{width:1.25rem}.h-5{height:1.25rem}.w-6{width:1.5rem}.h-6{height:1.5rem}.w-8{width:2rem}.h-8{height:2rem}.w-10{width:2.5rem}.h-10{height:2.5rem}.w-13{width:3.25rem}.h-13{height:3.25rem}.w-20{width:5rem}
+      .flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}
+      .items-start{align-items:flex-start}.items-center{align-items:center}.items-end{align-items:flex-end}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}.justify-between{justify-content:space-between}
+      .grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.grid-cols-10{grid-template-columns:repeat(10,minmax(0,1fr))}.grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}
+      .gap-0\.5{gap:.125rem}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}
+      .gap-x-3{column-gap:.75rem}.gap-y-4{row-gap:1rem}.space-y-10>:not([hidden])~:not([hidden]){margin-top:2.5rem}
+      .overflow-hidden{overflow:hidden}.overflow-visible{overflow:visible}.overflow-x-auto{overflow-x:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-auto{overflow-y:auto}
+      .bg-background\/95{background-color:hsl(var(--background)/.95)}.bg-card{background-color:hsl(var(--card))}.bg-muted{background-color:hsl(var(--muted))}.bg-primary{background-color:hsl(var(--primary))}.bg-accent{background-color:hsl(var(--accent))}.text-foreground{color:hsl(var(--foreground))}.text-muted-foreground{color:hsl(var(--muted-foreground))}.text-primary{color:hsl(var(--primary))}.text-primary-foreground{color:hsl(var(--primary-foreground))}.border-border{border-color:hsl(var(--border))}
+      .shadow-xs{box-shadow:0 1px 3px 0 rgba(0,0,0,.08)}.shadow-sm{box-shadow:0 1px 3px 0 rgba(0,0,0,.08),0 1px 2px -1px rgba(0,0,0,.06)}.shadow-md{box-shadow:0 4px 6px -1px rgba(0,0,0,.07),0 2px 4px -2px rgba(0,0,0,.05)}.shadow-lg{box-shadow:0 10px 15px -3px rgba(0,0,0,.08),0 4px 6px -4px rgba(0,0,0,.05)}.shadow-2xl{box-shadow:0 25px 50px -12px rgba(0,0,0,.12)}
+      .h-\[132px\]{height:132px}.w-\[168px\]{width:168px}.min-h-\[32px\]{min-height:32px}.min-h-\[34px\]{min-height:34px}.pb-\[440px\]{padding-bottom:440px}.z-\[9999\]{z-index:9999}.scroll-mt-\[128px\]{scroll-margin-top:128px}.items-stretch{align-items:stretch}.mt-auto{margin-top:auto}.pr-7{padding-right:1.75rem}
+      #tools [data-testid^="card-tool-"]{display:flex;flex-direction:column;min-width:0;border:1px solid hsl(var(--border));background:hsl(var(--card));overflow:hidden}
+      @media (max-width:767px){#tools [data-testid^="card-tool-"]{height:132px}#tools .grid{align-items:stretch}}
+      .rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}
+      .border{border-width:1px}.border-b{border-bottom-width:1px}.p-1{padding:.25rem}.p-1\.5{padding:.375rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-3\.5{padding-left:.875rem;padding-right:.875rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}
+      .pt-3{padding-top:.75rem}.pt-4{padding-top:1rem}.pt-5{padding-top:1.25rem}.pt-16{padding-top:4rem}.pb-0{padding-bottom:0}.pb-0\.5{padding-bottom:.125rem}.pb-1{padding-bottom:.25rem}.pb-2{padding-bottom:.5rem}.pb-3{padding-bottom:.75rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pb-20{padding-bottom:5rem}.pl-10{padding-left:2.5rem}.pr-4{padding-right:1rem}
+      .text-center{text-align:center}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.whitespace-nowrap{white-space:nowrap}
+      .snap-x{scroll-snap-type:x var(--tw-scroll-snap-strictness)}.snap-mandatory{--tw-scroll-snap-strictness:mandatory}.snap-proximity{--tw-scroll-snap-strictness:proximity}.snap-start{scroll-snap-align:start}
+      .no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}.no-scrollbar::-webkit-scrollbar{display:none}
+      @media (min-width:640px){.sm\:block{display:block}.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:gap-4{gap:1rem}.sm\:gap-6{gap:1.5rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:top-\[64px\]{top:64px}}
+      @media (min-width:768px){.md\:block{display:block}.md\:flex{display:flex}.md\:grid{display:grid}.md\:hidden{display:none}.md\:static{position:static}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\:px-6{padding-left:1.5rem;padding-right:1.5rem}.md\:pt-0{padding-top:0}.md\:pb-0{padding-bottom:0}.md\:pb-1{padding-bottom:.25rem}.md\:border-0{border-width:0}.md\:bg-transparent{background-color:transparent}.md\:backdrop-blur-0{backdrop-filter:none}}
+      @media (min-width:1024px){.lg\:block{display:block}.lg\:flex{display:flex}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.lg\:justify-start{justify-content:flex-start}.lg\:justify-end{justify-content:flex-end}}
+      @media (min-width:1280px){.xl\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}}
+      @media (min-width:1536px){.\32xl\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}}
+    </style>
+    <noscript>
+      <style>
+        .grid{display:grid}.flex{display:flex}.hidden{display:none}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.px-4{padding-left:1rem;padding-right:1rem}.overflow-hidden{overflow:hidden}@media (min-width:768px){.md\:block{display:block}.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}@media (min-width:1024px){.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}}
+      </style>
+    </noscript>
+    <link rel="stylesheet" media="(min-width: 768px)" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    <style id="CalcHive-calculator-route-smoothness">
+      html[data-CalcHive-route-kind="calculator"] #root > div:not(#CalcHive-static-shell), .CalcHive-route-stage { animation: CalcHiveCalcRouteIn 260ms cubic-bezier(.22,1,.36,1) both; transform-origin: 50% 12%; will-change: opacity, transform; }
+      html[data-CalcHive-route-pending="true"] body::before { content: ""; position: fixed; top: 0; left: 0; z-index: 99999; width: 100%; height: 3px; pointer-events: none; background: linear-gradient(90deg, transparent, hsl(247 84% 60%), hsl(199 89% 48%), transparent); transform-origin: left center; animation: CalcHiveRouteProgress .72s ease-in-out infinite; }
+      html[data-CalcHive-route-pending="true"] body::after { content: "Opening calculator"; position: fixed; left: 50%; bottom: 16px; z-index: 99999; transform: translateX(-50%); border: 1px solid hsl(220 15% 85%); border-radius: 999px; padding: 8px 12px; background: rgba(255,255,255,.94); color: hsl(222 47% 11%); box-shadow: 0 18px 42px -26px rgba(15,23,42,.65); font: 800 12px/1 Inter, system-ui, sans-serif; pointer-events: none; animation: CalcHiveCalcPillIn 180ms ease-out both; }
+      html.dark[data-CalcHive-route-pending="true"] body::after { border-color: hsl(222 36% 24%); background: rgba(15,23,42,.94); color: white; }
+      @media (min-width: 641px) { html[data-CalcHive-route-pending="true"] body::after { top: 74px; bottom: auto; } }
+      @media (max-width: 640px) { html[data-CalcHive-route-kind="calculator"] #root > div:not(#CalcHive-static-shell), .CalcHive-route-stage { animation-duration: 210ms; } html[data-CalcHive-route-pending="true"] body::after { bottom: 12px; padding: 7px 10px; font-size: 11px; } }
+      @media (prefers-reduced-motion: reduce) { html[data-CalcHive-route-kind="calculator"] #root > div:not(#CalcHive-static-shell), .CalcHive-route-stage, html[data-CalcHive-route-pending="true"] body::before, html[data-CalcHive-route-pending="true"] body::after { animation: none !important; transform: none !important; filter: none !important; } html[data-CalcHive-route-pending="true"] body::after { left: 12px; right: auto; } }
+      .CalcHive-route-skeleton { animation: CalcHiveCalcRouteIn 220ms cubic-bezier(.22,1,.36,1) both; } .CalcHive-route-skeleton [class*="bg-slate-"] { animation: CalcHiveRoutePulse 1.15s ease-in-out infinite; } @keyframes CalcHiveRoutePulse { 0%, 100% { opacity: .56; } 50% { opacity: 1; } } @keyframes CalcHiveCalcRouteIn { from { opacity: .001; transform: translate3d(0, 10px, 0) scale(.992); filter: saturate(.96); } to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); filter: saturate(1); } }
+      @keyframes CalcHiveRouteProgress { 0% { transform: scaleX(.08) translateX(-12%); opacity: .48; } 50% { transform: scaleX(.78) translateX(18%); opacity: 1; } 100% { transform: scaleX(.08) translateX(104%); opacity: .48; } }
+      @keyframes CalcHiveCalcPillIn { from { opacity: 0; transform: translateX(-50%) translateY(6px) scale(.96); } to { opacity: 1; transform: translateX(-50%) translateY(0) scale(1); } }
+    </style>
+    <script nonce="calchive-static" id="CalcHive-calculator-route-smoothness-script">
+      (function(){if(window.__CalcHiveRouteSmoothness)return;window.__CalcHiveRouteSmoothness=true;var staticRoutes={"/":true,"/about":true,"/contact":true,"/our-standards":true,"/blog":true,"/search":true,"/privacy-policy":true,"/terms":true,"/financial-calculators":true,"/health-calculators":true,"/math-calculators":true};var pendingTimer=0;function clean(path){return(path||"/").split("?")[0].split("#")[0].replace(/\/+$/,"")||"/"}function isCalculator(path){path=clean(path);return!staticRoutes[path]&&path.indexOf("/blog/")!==0}function apply(path){document.documentElement.setAttribute("data-CalcHive-route-kind",isCalculator(path||location.pathname)?"calculator":"page")}function stop(){document.documentElement.removeAttribute("data-CalcHive-route-pending")}function start(path){if(!isCalculator(path))return;document.documentElement.setAttribute("data-CalcHive-route-pending","true");clearTimeout(pendingTimer);pendingTimer=setTimeout(stop,560)}function pathFromUrl(url){try{return new URL(url,location.href).pathname}catch(error){return""}}var pushState=history.pushState;var replaceState=history.replaceState;history.pushState=function(state,title,url){if(url)start(pathFromUrl(url));var result=pushState.apply(this,arguments);apply(location.pathname);setTimeout(stop,380);return result};history.replaceState=function(state,title,url){var result=replaceState.apply(this,arguments);apply(location.pathname);return result};window.addEventListener("popstate",function(){start(location.pathname);setTimeout(function(){apply(location.pathname);stop()},260)},{passive:true});function handleLinkIntent(event){var target=event.target;var anchor=target&&target.closest?target.closest("a[href]"):null;if(!anchor)return;var url;try{url=new URL(anchor.href,location.href)}catch(error){return}if(url.origin===location.origin)start(url.pathname)}document.addEventListener("click",handleLinkIntent,{capture:true,passive:true});document.addEventListener("touchstart",handleLinkIntent,{capture:true,passive:true});document.addEventListener("pointerdown",handleLinkIntent,{capture:true,passive:true});apply(location.pathname)})();
+    </script>
+    <script nonce="calchive-static" type="text/javascript">
+      (function () {
+        var clarityLoaded = false;
+        function loadClarity() {
+          if (clarityLoaded) return;
+          clarityLoaded = true;
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "wy4wsiboks");
+        }
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(loadClarity, { timeout: window.matchMedia('(max-width: 767px)').matches ? 5200 : 1800 });
+        } else {
+          window.addEventListener('load', function () { setTimeout(loadClarity, window.matchMedia('(max-width: 767px)').matches ? 3200 : 700); }, { once: true });
+        }
+      })();
+    </script>
+    <script nonce="calchive-static" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860" crossorigin="anonymous"></script>
+    <script type="module" crossorigin src="/assets/index-GdrkE-GI.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-dPJNWl6a.js">
+    <link rel="modulepreload" crossorigin href="/assets/router-B-zBcJCg.js">
+    <link rel="stylesheet" crossorigin href="/index-Dnp3P_V7.css">
+  </head>
+  <body>
+    <div id="root">
+      <div id="CalcHive-static-shell" style="min-height:100svh;background:linear-gradient(180deg,hsl(243 75% 97%),hsl(220 20% 98%) 58%);color:hsl(222 47% 11%);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+        <header style="height:56px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid hsl(220 15% 88%);background:rgba(255,255,255,.92);">
+          <div style="width:min(1120px,100%);padding:0 16px;display:flex;align-items:center;justify-content:space-between;">
+            <div style="display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;">
+              <img src="/logo-32.png" alt="CalcHive" width="24" height="24" loading="lazy" style="width:24px;height:24px;border-radius:7px;">
+              <span>CalcHive</span>
+            </div>
+            <span style="display:inline-flex;align-items:center;border-radius:10px;background:hsl(243 75% 59%);color:white;font-size:13px;font-weight:800;padding:8px 13px;">All Tools</span>
+          </div>
+        </header>
+        <main style="width:min(1120px,100%);margin:0 auto;padding:42px 18px 32px;text-align:center;">
+          <p style="display:inline-flex;align-items:center;border:1px solid hsl(243 75% 80%);border-radius:999px;color:hsl(243 75% 59%);background:rgba(255,255,255,.65);padding:6px 12px;margin:0 0 18px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;">258 free calculators - no signup required</p>
+          <h1 style="max-width:720px;margin:0 auto 16px;font-size:clamp(40px,10vw,64px);line-height:1.08;font-weight:900;letter-spacing:-.02em;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+            CalcHive: Free Online Calculators for <span style="color:hsl(243 75% 59%);">Finance, Health &amp; More</span>
+          </h1>
+          <p style="max-width:640px;margin:0 auto 24px;color:hsl(220 13% 44%);font-size:18px;line-height:1.6;">258 professional tools for finance, health, freelancing, and creator analytics - delivering accurate answers instantly, with no account required.</p>
+          <a href="#tools" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;background:hsl(243 75% 59%);color:white;text-decoration:none;font-size:16px;font-weight:800;padding:0 24px;box-shadow:0 12px 24px rgba(79,70,229,.22);">Browse All 258 Tools</a>
+          <div style="margin:18px auto 0;display:flex;gap:10px;justify-content:center;flex-wrap:wrap;color:hsl(220 13% 44%);font-size:13px;font-weight:650;">
+            <span>100% Free</span><span>No Signup</span><span>Instant Results</span><span>Mobile Ready</span>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+
+

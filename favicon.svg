@@ -1,0 +1,52 @@
+<svg width="192" height="192" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0 0)">
+    <rect width="200" height="200" rx="44" fill="url(#bgGrad)"/>
+    <rect x="1" y="1" width="198" height="90" rx="43" fill="url(#highlight)" opacity="0.15"/>
+    <rect x="18" y="18" width="82" height="82" rx="16" fill="url(#btnTopLeft)"/>
+    <rect x="108" y="18" width="74" height="82" rx="16" fill="url(#btnTopRight)"/>
+    <rect x="18" y="108" width="82" height="74" rx="16" fill="url(#btnBottomLeft)" opacity="0.85"/>
+    <rect x="108" y="108" width="74" height="74" rx="16" fill="url(#btnBottomRight)"/>
+    <g transform="translate(32, 25)">
+      <path d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z" fill="white" opacity="0.95"/>
+    </g>
+    <rect x="48" y="59" width="28" height="8" rx="4" fill="white" opacity="0.95"/>
+    <rect x="58" y="49" width="8" height="28" rx="4" fill="white" opacity="0.95"/>
+    <rect x="122" y="49" width="36" height="8" rx="4" fill="white" opacity="0.95"/>
+    <rect x="122" y="65" width="36" height="8" rx="4" fill="white" opacity="0.95"/>
+    <rect x="30" y="130" width="46" height="9" rx="4.5" fill="white" opacity="0.95" transform="rotate(45 53 134.5)"/>
+    <rect x="30" y="130" width="46" height="9" rx="4.5" fill="white" opacity="0.95" transform="rotate(-45 53 134.5)"/>
+    <path d="M80 148 L102 174 L168 92" stroke="url(#checkGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="55%" stop-color="#4338CA"/>
+      <stop offset="100%" stop-color="#5B21B6"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="btnTopLeft" x1="18" y1="18" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5B5FEF"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+    <linearGradient id="btnTopRight" x1="108" y1="18" x2="182" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5558E8"/>
+      <stop offset="100%" stop-color="#3B3DB0"/>
+    </linearGradient>
+    <linearGradient id="btnBottomLeft" x1="18" y1="108" x2="100" y2="182" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7B7FFA"/>
+      <stop offset="100%" stop-color="#5B5FEF"/>
+    </linearGradient>
+    <linearGradient id="btnBottomRight" x1="108" y1="108" x2="182" y2="182" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F52D8"/>
+      <stop offset="100%" stop-color="#3730A3"/>
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="80" y1="174" x2="168" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#4ADE80"/>
+    </linearGradient>
+  </defs>
+</svg>

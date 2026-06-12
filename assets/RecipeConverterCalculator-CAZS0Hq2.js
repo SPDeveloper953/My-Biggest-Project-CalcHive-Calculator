@@ -1,0 +1,2 @@
+import{j as r}from"./react-vendor-dPJNWl6a.js";import{C as o}from"./CookingNutritionCalculatorPage-C9TMYQka.js";import"./home-sections-BL7QUrV8.js";import"./router-B-zBcJCg.js";import"./SEOHead-BkI9GR3E.js";import"./index-GdrkE-GI.js";import"./AdPlaceholder-Dgv3myon.js";import"./FAQItem-B9eKBHzC.js";import"./RelatedTools-DybcpoQW.js";import"./ShareButton-DFkVoELh.js";function s(){return r.jsx(o,{slug:"recipe-converter-calculator"})}export{s as default};
+//# sourceMappingURL=RecipeConverterCalculator-CAZS0Hq2.js.map

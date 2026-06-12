@@ -1,0 +1,2 @@
+import{j as o}from"./react-vendor-dPJNWl6a.js";import{C as t}from"./CookingNutritionCalculatorPage-C9TMYQka.js";import"./home-sections-BL7QUrV8.js";import"./router-B-zBcJCg.js";import"./SEOHead-BkI9GR3E.js";import"./index-GdrkE-GI.js";import"./AdPlaceholder-Dgv3myon.js";import"./FAQItem-B9eKBHzC.js";import"./RelatedTools-DybcpoQW.js";import"./ShareButton-DFkVoELh.js";function c(){return o.jsx(t,{slug:"sodium-intake-calculator"})}export{c as default};
+//# sourceMappingURL=SodiumIntakeCalculator-D3TA1B3o.js.map

@@ -1,0 +1,2 @@
+import{j as r}from"./react-vendor-dPJNWl6a.js";import{C as t}from"./ConstructionDiyCalculatorPage-BZLydacV.js";import"./home-sections-BL7QUrV8.js";import"./router-B-zBcJCg.js";import"./SEOHead-BkI9GR3E.js";import"./index-GdrkE-GI.js";import"./AdPlaceholder-Dgv3myon.js";import"./RelatedTools-DybcpoQW.js";import"./ShareButton-DFkVoELh.js";import"./FAQItem-B9eKBHzC.js";function e(){return r.jsx(t,{slug:"drywall-calculator"})}export{e as default};
+//# sourceMappingURL=DrywallCalculator-DJkkzit2.js.map

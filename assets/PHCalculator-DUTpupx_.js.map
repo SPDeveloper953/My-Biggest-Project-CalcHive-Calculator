@@ -1,0 +1,1 @@
+{"version":3,"file":"PHCalculator-DUTpupx_.js","sources":["../../src/pages/PHCalculator.tsx"],"sourcesContent":["import { createChemistryCalculatorPage } from \"./ChemistryCalculators\";\n\nexport default createChemistryCalculatorPage(\"ph\");\n"],"names":["PHCalculator","createChemistryCalculatorPage"],"mappings":"4ZAEA,MAAAA,EAAeC,EAA8B,IAAI"}

@@ -1,0 +1,53 @@
+# robots.txt - CalcHive
+# https://www.calchive.site
+
+# All crawlers: allow everything public
+User-agent: *
+Allow: /
+Disallow: /__replco/
+Disallow: /__vite/
+Disallow: /@vite/
+Disallow: /@fs/
+Disallow: /src/
+
+# AI search and LLM crawlers: explicitly permitted
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap
+Sitemap: https://www.calchive.site/sitemap.xml
+
+

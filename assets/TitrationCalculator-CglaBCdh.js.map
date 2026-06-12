@@ -1,0 +1,1 @@
+{"version":3,"file":"TitrationCalculator-CglaBCdh.js","sources":["../../src/pages/TitrationCalculator.tsx"],"sourcesContent":["import { createChemistryCalculatorPage } from \"./ChemistryCalculators\";\n\nexport default createChemistryCalculatorPage(\"titration\");\n"],"names":["TitrationCalculator","createChemistryCalculatorPage"],"mappings":"4ZAEA,MAAAA,EAAeC,EAA8B,WAAW"}
