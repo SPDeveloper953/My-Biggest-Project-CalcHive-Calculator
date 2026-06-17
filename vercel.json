@@ -1,6 +1,1230 @@
 {
   "rewrites": [
     {
+      "source": "/freelance-hourly-rate-calculator",
+      "destination": "/freelance-hourly-rate-calculator/index.html"
+    },
+    {
+      "source": "/fiverr-fee-calculator",
+      "destination": "/fiverr-fee-calculator/index.html"
+    },
+    {
+      "source": "/upwork-earnings-calculator",
+      "destination": "/upwork-earnings-calculator/index.html"
+    },
+    {
+      "source": "/freelancer-profit-calculator",
+      "destination": "/freelancer-profit-calculator/index.html"
+    },
+    {
+      "source": "/salary-to-hourly-converter",
+      "destination": "/salary-to-hourly-converter/index.html"
+    },
+    {
+      "source": "/monthly-income-goal-calculator",
+      "destination": "/monthly-income-goal-calculator/index.html"
+    },
+    {
+      "source": "/dropshipping-profit-calculator",
+      "destination": "/dropshipping-profit-calculator/index.html"
+    },
+    {
+      "source": "/shopify-fee-calculator",
+      "destination": "/shopify-fee-calculator/index.html"
+    },
+    {
+      "source": "/break-even-calculator",
+      "destination": "/break-even-calculator/index.html"
+    },
+    {
+      "source": "/discount-profit-calculator",
+      "destination": "/discount-profit-calculator/index.html"
+    },
+    {
+      "source": "/cost-per-product-calculator",
+      "destination": "/cost-per-product-calculator/index.html"
+    },
+    {
+      "source": "/youtube-earnings-calculator",
+      "destination": "/youtube-earnings-calculator/index.html"
+    },
+    {
+      "source": "/youtube-cpm-calculator",
+      "destination": "/youtube-cpm-calculator/index.html"
+    },
+    {
+      "source": "/youtube-sponsorship-calculator",
+      "destination": "/youtube-sponsorship-calculator/index.html"
+    },
+    {
+      "source": "/subscriber-growth-calculator",
+      "destination": "/subscriber-growth-calculator/index.html"
+    },
+    {
+      "source": "/youtube-shorts-revenue-calculator",
+      "destination": "/youtube-shorts-revenue-calculator/index.html"
+    },
+    {
+      "source": "/youtube-channel-health-calculator",
+      "destination": "/youtube-channel-health-calculator/index.html"
+    },
+    {
+      "source": "/video-production-cost-calculator",
+      "destination": "/video-production-cost-calculator/index.html"
+    },
+    {
+      "source": "/tiktok-earnings-calculator",
+      "destination": "/tiktok-earnings-calculator/index.html"
+    },
+    {
+      "source": "/instagram-engagement-calculator",
+      "destination": "/instagram-engagement-calculator/index.html"
+    },
+    {
+      "source": "/influencer-pricing-calculator",
+      "destination": "/influencer-pricing-calculator/index.html"
+    },
+    {
+      "source": "/twitter-ad-revenue-calculator",
+      "destination": "/twitter-ad-revenue-calculator/index.html"
+    },
+    {
+      "source": "/pinterest-traffic-calculator",
+      "destination": "/pinterest-traffic-calculator/index.html"
+    },
+    {
+      "source": "/social-media-manager-pricing-calculator",
+      "destination": "/social-media-manager-pricing-calculator/index.html"
+    },
+    {
+      "source": "/instagram-story-engagement-calculator",
+      "destination": "/instagram-story-engagement-calculator/index.html"
+    },
+    {
+      "source": "/bio-link-ctr-calculator",
+      "destination": "/bio-link-ctr-calculator/index.html"
+    },
+    {
+      "source": "/side-hustle-income-calculator",
+      "destination": "/side-hustle-income-calculator/index.html"
+    },
+    {
+      "source": "/passive-income-goal-calculator",
+      "destination": "/passive-income-goal-calculator/index.html"
+    },
+    {
+      "source": "/ad-revenue-calculator",
+      "destination": "/ad-revenue-calculator/index.html"
+    },
+    {
+      "source": "/digital-product-profit-calculator",
+      "destination": "/digital-product-profit-calculator/index.html"
+    },
+    {
+      "source": "/mortgage-calculator",
+      "destination": "/mortgage-calculator/index.html"
+    },
+    {
+      "source": "/mortgage-payoff-calculator",
+      "destination": "/mortgage-payoff-calculator/index.html"
+    },
+    {
+      "source": "/loan-calculator",
+      "destination": "/loan-calculator/index.html"
+    },
+    {
+      "source": "/auto-loan-calculator",
+      "destination": "/auto-loan-calculator/index.html"
+    },
+    {
+      "source": "/interest-calculator",
+      "destination": "/interest-calculator/index.html"
+    },
+    {
+      "source": "/simple-interest-calculator",
+      "destination": "/simple-interest-calculator/index.html"
+    },
+    {
+      "source": "/retirement-calculator",
+      "destination": "/retirement-calculator/index.html"
+    },
+    {
+      "source": "/amortization-calculator",
+      "destination": "/amortization-calculator/index.html"
+    },
+    {
+      "source": "/investment-calculator",
+      "destination": "/investment-calculator/index.html"
+    },
+    {
+      "source": "/currency-calculator",
+      "destination": "/currency-calculator/index.html"
+    },
+    {
+      "source": "/inflation-calculator",
+      "destination": "/inflation-calculator/index.html"
+    },
+    {
+      "source": "/income-tax-calculator",
+      "destination": "/income-tax-calculator/index.html"
+    },
+    {
+      "source": "/compound-interest-calculator",
+      "destination": "/compound-interest-calculator/index.html"
+    },
+    {
+      "source": "/salary-calculator",
+      "destination": "/salary-calculator/index.html"
+    },
+    {
+      "source": "/interest-rate-calculator",
+      "destination": "/interest-rate-calculator/index.html"
+    },
+    {
+      "source": "/sales-tax-calculator",
+      "destination": "/sales-tax-calculator/index.html"
+    },
+    {
+      "source": "/payment-calculator",
+      "destination": "/payment-calculator/index.html"
+    },
+    {
+      "source": "/finance-calculator",
+      "destination": "/finance-calculator/index.html"
+    },
+    {
+      "source": "/401k-calculator",
+      "destination": "/401k-calculator/index.html"
+    },
+    {
+      "source": "/house-affordability-calculator",
+      "destination": "/house-affordability-calculator/index.html"
+    },
+    {
+      "source": "/savings-calculator",
+      "destination": "/savings-calculator/index.html"
+    },
+    {
+      "source": "/rent-calculator",
+      "destination": "/rent-calculator/index.html"
+    },
+    {
+      "source": "/marriage-tax-calculator",
+      "destination": "/marriage-tax-calculator/index.html"
+    },
+    {
+      "source": "/estate-tax-calculator",
+      "destination": "/estate-tax-calculator/index.html"
+    },
+    {
+      "source": "/pension-calculator",
+      "destination": "/pension-calculator/index.html"
+    },
+    {
+      "source": "/social-security-calculator",
+      "destination": "/social-security-calculator/index.html"
+    },
+    {
+      "source": "/annuity-calculator",
+      "destination": "/annuity-calculator/index.html"
+    },
+    {
+      "source": "/annuity-payout-calculator",
+      "destination": "/annuity-payout-calculator/index.html"
+    },
+    {
+      "source": "/credit-card-calculator",
+      "destination": "/credit-card-calculator/index.html"
+    },
+    {
+      "source": "/credit-cards-payoff-calculator",
+      "destination": "/credit-cards-payoff-calculator/index.html"
+    },
+    {
+      "source": "/debt-payoff-calculator",
+      "destination": "/debt-payoff-calculator/index.html"
+    },
+    {
+      "source": "/debt-consolidation-calculator",
+      "destination": "/debt-consolidation-calculator/index.html"
+    },
+    {
+      "source": "/repayment-calculator",
+      "destination": "/repayment-calculator/index.html"
+    },
+    {
+      "source": "/student-loan-calculator",
+      "destination": "/student-loan-calculator/index.html"
+    },
+    {
+      "source": "/college-cost-calculator",
+      "destination": "/college-cost-calculator/index.html"
+    },
+    {
+      "source": "/cd-calculator",
+      "destination": "/cd-calculator/index.html"
+    },
+    {
+      "source": "/bond-calculator",
+      "destination": "/bond-calculator/index.html"
+    },
+    {
+      "source": "/mutual-fund-calculator",
+      "destination": "/mutual-fund-calculator/index.html"
+    },
+    {
+      "source": "/roth-ira-calculator",
+      "destination": "/roth-ira-calculator/index.html"
+    },
+    {
+      "source": "/ira-calculator",
+      "destination": "/ira-calculator/index.html"
+    },
+    {
+      "source": "/rmd-calculator",
+      "destination": "/rmd-calculator/index.html"
+    },
+    {
+      "source": "/vat-calculator",
+      "destination": "/vat-calculator/index.html"
+    },
+    {
+      "source": "/cash-back-vs-low-interest-calculator",
+      "destination": "/cash-back-vs-low-interest-calculator/index.html"
+    },
+    {
+      "source": "/auto-lease-calculator",
+      "destination": "/auto-lease-calculator/index.html"
+    },
+    {
+      "source": "/depreciation-calculator",
+      "destination": "/depreciation-calculator/index.html"
+    },
+    {
+      "source": "/average-return-calculator",
+      "destination": "/average-return-calculator/index.html"
+    },
+    {
+      "source": "/margin-calculator",
+      "destination": "/margin-calculator/index.html"
+    },
+    {
+      "source": "/discount-calculator",
+      "destination": "/discount-calculator/index.html"
+    },
+    {
+      "source": "/business-loan-calculator",
+      "destination": "/business-loan-calculator/index.html"
+    },
+    {
+      "source": "/debt-to-income-calculator",
+      "destination": "/debt-to-income-calculator/index.html"
+    },
+    {
+      "source": "/real-estate-calculator",
+      "destination": "/real-estate-calculator/index.html"
+    },
+    {
+      "source": "/take-home-pay-calculator",
+      "destination": "/take-home-pay-calculator/index.html"
+    },
+    {
+      "source": "/personal-loan-calculator",
+      "destination": "/personal-loan-calculator/index.html"
+    },
+    {
+      "source": "/boat-loan-calculator",
+      "destination": "/boat-loan-calculator/index.html"
+    },
+    {
+      "source": "/lease-calculator",
+      "destination": "/lease-calculator/index.html"
+    },
+    {
+      "source": "/refinance-calculator",
+      "destination": "/refinance-calculator/index.html"
+    },
+    {
+      "source": "/budget-calculator",
+      "destination": "/budget-calculator/index.html"
+    },
+    {
+      "source": "/rental-property-calculator",
+      "destination": "/rental-property-calculator/index.html"
+    },
+    {
+      "source": "/irr-calculator",
+      "destination": "/irr-calculator/index.html"
+    },
+    {
+      "source": "/roi-calculator",
+      "destination": "/roi-calculator/index.html"
+    },
+    {
+      "source": "/apr-calculator",
+      "destination": "/apr-calculator/index.html"
+    },
+    {
+      "source": "/fha-loan-calculator",
+      "destination": "/fha-loan-calculator/index.html"
+    },
+    {
+      "source": "/va-mortgage-calculator",
+      "destination": "/va-mortgage-calculator/index.html"
+    },
+    {
+      "source": "/home-equity-loan-calculator",
+      "destination": "/home-equity-loan-calculator/index.html"
+    },
+    {
+      "source": "/heloc-calculator",
+      "destination": "/heloc-calculator/index.html"
+    },
+    {
+      "source": "/down-payment-calculator",
+      "destination": "/down-payment-calculator/index.html"
+    },
+    {
+      "source": "/rent-vs-buy-calculator",
+      "destination": "/rent-vs-buy-calculator/index.html"
+    },
+    {
+      "source": "/payback-period-calculator",
+      "destination": "/payback-period-calculator/index.html"
+    },
+    {
+      "source": "/present-value-calculator",
+      "destination": "/present-value-calculator/index.html"
+    },
+    {
+      "source": "/future-value-calculator",
+      "destination": "/future-value-calculator/index.html"
+    },
+    {
+      "source": "/commission-calculator",
+      "destination": "/commission-calculator/index.html"
+    },
+    {
+      "source": "/mortgage-calculator-uk",
+      "destination": "/mortgage-calculator-uk/index.html"
+    },
+    {
+      "source": "/canadian-mortgage-calculator",
+      "destination": "/canadian-mortgage-calculator/index.html"
+    },
+    {
+      "source": "/mortgage-amortization-calculator",
+      "destination": "/mortgage-amortization-calculator/index.html"
+    },
+    {
+      "source": "/percent-off-calculator",
+      "destination": "/percent-off-calculator/index.html"
+    },
+    {
+      "source": "/bmi-calculator",
+      "destination": "/bmi-calculator/index.html"
+    },
+    {
+      "source": "/calorie-calculator",
+      "destination": "/calorie-calculator/index.html"
+    },
+    {
+      "source": "/body-fat-calculator",
+      "destination": "/body-fat-calculator/index.html"
+    },
+    {
+      "source": "/bmr-calculator",
+      "destination": "/bmr-calculator/index.html"
+    },
+    {
+      "source": "/ideal-weight-calculator",
+      "destination": "/ideal-weight-calculator/index.html"
+    },
+    {
+      "source": "/pace-calculator",
+      "destination": "/pace-calculator/index.html"
+    },
+    {
+      "source": "/pregnancy-calculator",
+      "destination": "/pregnancy-calculator/index.html"
+    },
+    {
+      "source": "/pregnancy-conception-calculator",
+      "destination": "/pregnancy-conception-calculator/index.html"
+    },
+    {
+      "source": "/due-date-calculator",
+      "destination": "/due-date-calculator/index.html"
+    },
+    {
+      "source": "/macro-calculator",
+      "destination": "/macro-calculator/index.html"
+    },
+    {
+      "source": "/pregnancy-weight-gain-calculator",
+      "destination": "/pregnancy-weight-gain-calculator/index.html"
+    },
+    {
+      "source": "/army-body-fat-calculator",
+      "destination": "/army-body-fat-calculator/index.html"
+    },
+    {
+      "source": "/carbohydrate-calculator",
+      "destination": "/carbohydrate-calculator/index.html"
+    },
+    {
+      "source": "/lean-body-mass-calculator",
+      "destination": "/lean-body-mass-calculator/index.html"
+    },
+    {
+      "source": "/healthy-weight-calculator",
+      "destination": "/healthy-weight-calculator/index.html"
+    },
+    {
+      "source": "/calories-burned-calculator",
+      "destination": "/calories-burned-calculator/index.html"
+    },
+    {
+      "source": "/one-rep-max-calculator",
+      "destination": "/one-rep-max-calculator/index.html"
+    },
+    {
+      "source": "/target-heart-rate-calculator",
+      "destination": "/target-heart-rate-calculator/index.html"
+    },
+    {
+      "source": "/protein-calculator",
+      "destination": "/protein-calculator/index.html"
+    },
+    {
+      "source": "/fat-intake-calculator",
+      "destination": "/fat-intake-calculator/index.html"
+    },
+    {
+      "source": "/tdee-calculator",
+      "destination": "/tdee-calculator/index.html"
+    },
+    {
+      "source": "/ovulation-calculator",
+      "destination": "/ovulation-calculator/index.html"
+    },
+    {
+      "source": "/conception-calculator",
+      "destination": "/conception-calculator/index.html"
+    },
+    {
+      "source": "/period-calculator",
+      "destination": "/period-calculator/index.html"
+    },
+    {
+      "source": "/gfr-calculator",
+      "destination": "/gfr-calculator/index.html"
+    },
+    {
+      "source": "/body-type-calculator",
+      "destination": "/body-type-calculator/index.html"
+    },
+    {
+      "source": "/body-surface-area-calculator",
+      "destination": "/body-surface-area-calculator/index.html"
+    },
+    {
+      "source": "/bac-calculator",
+      "destination": "/bac-calculator/index.html"
+    },
+    {
+      "source": "/anorexic-bmi-calculator",
+      "destination": "/anorexic-bmi-calculator/index.html"
+    },
+    {
+      "source": "/weight-watchers-points-calculator",
+      "destination": "/weight-watchers-points-calculator/index.html"
+    },
+    {
+      "source": "/overweight-calculator",
+      "destination": "/overweight-calculator/index.html"
+    },
+    {
+      "source": "/scientific-calculator",
+      "destination": "/scientific-calculator/index.html"
+    },
+    {
+      "source": "/fraction-calculator",
+      "destination": "/fraction-calculator/index.html"
+    },
+    {
+      "source": "/percentage-calculator",
+      "destination": "/percentage-calculator/index.html"
+    },
+    {
+      "source": "/random-number-generator",
+      "destination": "/random-number-generator/index.html"
+    },
+    {
+      "source": "/triangle-calculator",
+      "destination": "/triangle-calculator/index.html"
+    },
+    {
+      "source": "/standard-deviation-calculator",
+      "destination": "/standard-deviation-calculator/index.html"
+    },
+    {
+      "source": "/grade-calculator",
+      "destination": "/grade-calculator/index.html"
+    },
+    {
+      "source": "/gpa-calculator",
+      "destination": "/gpa-calculator/index.html"
+    },
+    {
+      "source": "/volume-calculator",
+      "destination": "/volume-calculator/index.html"
+    },
+    {
+      "source": "/number-sequence-calculator",
+      "destination": "/number-sequence-calculator/index.html"
+    },
+    {
+      "source": "/percent-error-calculator",
+      "destination": "/percent-error-calculator/index.html"
+    },
+    {
+      "source": "/exponent-calculator",
+      "destination": "/exponent-calculator/index.html"
+    },
+    {
+      "source": "/binary-calculator",
+      "destination": "/binary-calculator/index.html"
+    },
+    {
+      "source": "/hex-calculator",
+      "destination": "/hex-calculator/index.html"
+    },
+    {
+      "source": "/half-life-calculator",
+      "destination": "/half-life-calculator/index.html"
+    },
+    {
+      "source": "/quadratic-formula-calculator",
+      "destination": "/quadratic-formula-calculator/index.html"
+    },
+    {
+      "source": "/slope-calculator",
+      "destination": "/slope-calculator/index.html"
+    },
+    {
+      "source": "/log-calculator",
+      "destination": "/log-calculator/index.html"
+    },
+    {
+      "source": "/area-calculator",
+      "destination": "/area-calculator/index.html"
+    },
+    {
+      "source": "/sample-size-calculator",
+      "destination": "/sample-size-calculator/index.html"
+    },
+    {
+      "source": "/probability-calculator",
+      "destination": "/probability-calculator/index.html"
+    },
+    {
+      "source": "/statistics-calculator",
+      "destination": "/statistics-calculator/index.html"
+    },
+    {
+      "source": "/mean-median-mode-calculator",
+      "destination": "/mean-median-mode-calculator/index.html"
+    },
+    {
+      "source": "/permutation-combination-calculator",
+      "destination": "/permutation-combination-calculator/index.html"
+    },
+    {
+      "source": "/z-score-calculator",
+      "destination": "/z-score-calculator/index.html"
+    },
+    {
+      "source": "/confidence-interval-calculator",
+      "destination": "/confidence-interval-calculator/index.html"
+    },
+    {
+      "source": "/ratio-calculator",
+      "destination": "/ratio-calculator/index.html"
+    },
+    {
+      "source": "/distance-calculator",
+      "destination": "/distance-calculator/index.html"
+    },
+    {
+      "source": "/circle-calculator",
+      "destination": "/circle-calculator/index.html"
+    },
+    {
+      "source": "/surface-area-calculator",
+      "destination": "/surface-area-calculator/index.html"
+    },
+    {
+      "source": "/pythagorean-theorem-calculator",
+      "destination": "/pythagorean-theorem-calculator/index.html"
+    },
+    {
+      "source": "/right-triangle-calculator",
+      "destination": "/right-triangle-calculator/index.html"
+    },
+    {
+      "source": "/root-calculator",
+      "destination": "/root-calculator/index.html"
+    },
+    {
+      "source": "/lcm-calculator",
+      "destination": "/lcm-calculator/index.html"
+    },
+    {
+      "source": "/gcf-calculator",
+      "destination": "/gcf-calculator/index.html"
+    },
+    {
+      "source": "/factor-calculator",
+      "destination": "/factor-calculator/index.html"
+    },
+    {
+      "source": "/rounding-calculator",
+      "destination": "/rounding-calculator/index.html"
+    },
+    {
+      "source": "/matrix-calculator",
+      "destination": "/matrix-calculator/index.html"
+    },
+    {
+      "source": "/scientific-notation-calculator",
+      "destination": "/scientific-notation-calculator/index.html"
+    },
+    {
+      "source": "/big-number-calculator",
+      "destination": "/big-number-calculator/index.html"
+    },
+    {
+      "source": "/prime-factorization-calculator",
+      "destination": "/prime-factorization-calculator/index.html"
+    },
+    {
+      "source": "/common-factor-calculator",
+      "destination": "/common-factor-calculator/index.html"
+    },
+    {
+      "source": "/basic-calculator",
+      "destination": "/basic-calculator/index.html"
+    },
+    {
+      "source": "/newtons-law-calculator",
+      "destination": "/newtons-law-calculator/index.html"
+    },
+    {
+      "source": "/kinetic-energy-calculator",
+      "destination": "/kinetic-energy-calculator/index.html"
+    },
+    {
+      "source": "/potential-energy-calculator",
+      "destination": "/potential-energy-calculator/index.html"
+    },
+    {
+      "source": "/work-and-power-calculator",
+      "destination": "/work-and-power-calculator/index.html"
+    },
+    {
+      "source": "/wavelength-calculator",
+      "destination": "/wavelength-calculator/index.html"
+    },
+    {
+      "source": "/frequency-calculator",
+      "destination": "/frequency-calculator/index.html"
+    },
+    {
+      "source": "/pressure-calculator",
+      "destination": "/pressure-calculator/index.html"
+    },
+    {
+      "source": "/torque-calculator",
+      "destination": "/torque-calculator/index.html"
+    },
+    {
+      "source": "/acceleration-calculator",
+      "destination": "/acceleration-calculator/index.html"
+    },
+    {
+      "source": "/force-calculator",
+      "destination": "/force-calculator/index.html"
+    },
+    {
+      "source": "/momentum-calculator",
+      "destination": "/momentum-calculator/index.html"
+    },
+    {
+      "source": "/electric-field-calculator",
+      "destination": "/electric-field-calculator/index.html"
+    },
+    {
+      "source": "/capacitance-calculator",
+      "destination": "/capacitance-calculator/index.html"
+    },
+    {
+      "source": "/ph-calculator",
+      "destination": "/ph-calculator/index.html"
+    },
+    {
+      "source": "/titration-calculator",
+      "destination": "/titration-calculator/index.html"
+    },
+    {
+      "source": "/empirical-formula-calculator",
+      "destination": "/empirical-formula-calculator/index.html"
+    },
+    {
+      "source": "/percent-yield-calculator",
+      "destination": "/percent-yield-calculator/index.html"
+    },
+    {
+      "source": "/stoichiometry-calculator",
+      "destination": "/stoichiometry-calculator/index.html"
+    },
+    {
+      "source": "/ideal-gas-law-calculator",
+      "destination": "/ideal-gas-law-calculator/index.html"
+    },
+    {
+      "source": "/boyles-law-calculator",
+      "destination": "/boyles-law-calculator/index.html"
+    },
+    {
+      "source": "/charles-law-calculator",
+      "destination": "/charles-law-calculator/index.html"
+    },
+    {
+      "source": "/dilution-calculator",
+      "destination": "/dilution-calculator/index.html"
+    },
+    {
+      "source": "/buffer-calculator",
+      "destination": "/buffer-calculator/index.html"
+    },
+    {
+      "source": "/mole-calculator",
+      "destination": "/mole-calculator/index.html"
+    },
+    {
+      "source": "/atom-calculator",
+      "destination": "/atom-calculator/index.html"
+    },
+    {
+      "source": "/electron-configuration-calculator",
+      "destination": "/electron-configuration-calculator/index.html"
+    },
+    {
+      "source": "/oxidation-state-calculator",
+      "destination": "/oxidation-state-calculator/index.html"
+    },
+    {
+      "source": "/age-calculator",
+      "destination": "/age-calculator/index.html"
+    },
+    {
+      "source": "/date-calculator",
+      "destination": "/date-calculator/index.html"
+    },
+    {
+      "source": "/time-calculator",
+      "destination": "/time-calculator/index.html"
+    },
+    {
+      "source": "/hours-calculator",
+      "destination": "/hours-calculator/index.html"
+    },
+    {
+      "source": "/concrete-calculator",
+      "destination": "/concrete-calculator/index.html"
+    },
+    {
+      "source": "/subnet-calculator",
+      "destination": "/subnet-calculator/index.html"
+    },
+    {
+      "source": "/password-generator",
+      "destination": "/password-generator/index.html"
+    },
+    {
+      "source": "/conversion-calculator",
+      "destination": "/conversion-calculator/index.html"
+    },
+    {
+      "source": "/time-card-calculator",
+      "destination": "/time-card-calculator/index.html"
+    },
+    {
+      "source": "/time-duration-calculator",
+      "destination": "/time-duration-calculator/index.html"
+    },
+    {
+      "source": "/day-counter",
+      "destination": "/day-counter/index.html"
+    },
+    {
+      "source": "/day-of-week-calculator",
+      "destination": "/day-of-week-calculator/index.html"
+    },
+    {
+      "source": "/time-zone-calculator",
+      "destination": "/time-zone-calculator/index.html"
+    },
+    {
+      "source": "/btu-calculator",
+      "destination": "/btu-calculator/index.html"
+    },
+    {
+      "source": "/square-footage-calculator",
+      "destination": "/square-footage-calculator/index.html"
+    },
+    {
+      "source": "/stair-calculator",
+      "destination": "/stair-calculator/index.html"
+    },
+    {
+      "source": "/roofing-calculator",
+      "destination": "/roofing-calculator/index.html"
+    },
+    {
+      "source": "/tile-calculator",
+      "destination": "/tile-calculator/index.html"
+    },
+    {
+      "source": "/mulch-calculator",
+      "destination": "/mulch-calculator/index.html"
+    },
+    {
+      "source": "/gravel-calculator",
+      "destination": "/gravel-calculator/index.html"
+    },
+    {
+      "source": "/wallpaper-calculator",
+      "destination": "/wallpaper-calculator/index.html"
+    },
+    {
+      "source": "/flooring-calculator",
+      "destination": "/flooring-calculator/index.html"
+    },
+    {
+      "source": "/fence-calculator",
+      "destination": "/fence-calculator/index.html"
+    },
+    {
+      "source": "/paint-calculator",
+      "destination": "/paint-calculator/index.html"
+    },
+    {
+      "source": "/deck-calculator",
+      "destination": "/deck-calculator/index.html"
+    },
+    {
+      "source": "/drywall-calculator",
+      "destination": "/drywall-calculator/index.html"
+    },
+    {
+      "source": "/brick-calculator",
+      "destination": "/brick-calculator/index.html"
+    },
+    {
+      "source": "/sand-calculator",
+      "destination": "/sand-calculator/index.html"
+    },
+    {
+      "source": "/cement-calculator",
+      "destination": "/cement-calculator/index.html"
+    },
+    {
+      "source": "/insulation-calculator",
+      "destination": "/insulation-calculator/index.html"
+    },
+    {
+      "source": "/lumber-calculator",
+      "destination": "/lumber-calculator/index.html"
+    },
+    {
+      "source": "/cubic-feet-calculator",
+      "destination": "/cubic-feet-calculator/index.html"
+    },
+    {
+      "source": "/cubic-meters-calculator",
+      "destination": "/cubic-meters-calculator/index.html"
+    },
+    {
+      "source": "/pool-volume-calculator",
+      "destination": "/pool-volume-calculator/index.html"
+    },
+    {
+      "source": "/foundation-calculator",
+      "destination": "/foundation-calculator/index.html"
+    },
+    {
+      "source": "/recipe-converter-calculator",
+      "destination": "/recipe-converter-calculator/index.html"
+    },
+    {
+      "source": "/cooking-measurement-calculator",
+      "destination": "/cooking-measurement-calculator/index.html"
+    },
+    {
+      "source": "/cup-to-gram-calculator",
+      "destination": "/cup-to-gram-calculator/index.html"
+    },
+    {
+      "source": "/tablespoon-to-cup-calculator",
+      "destination": "/tablespoon-to-cup-calculator/index.html"
+    },
+    {
+      "source": "/calorie-deficit-calculator",
+      "destination": "/calorie-deficit-calculator/index.html"
+    },
+    {
+      "source": "/water-intake-calculator",
+      "destination": "/water-intake-calculator/index.html"
+    },
+    {
+      "source": "/fiber-intake-calculator",
+      "destination": "/fiber-intake-calculator/index.html"
+    },
+    {
+      "source": "/vitamin-d-calculator",
+      "destination": "/vitamin-d-calculator/index.html"
+    },
+    {
+      "source": "/sugar-intake-calculator",
+      "destination": "/sugar-intake-calculator/index.html"
+    },
+    {
+      "source": "/sodium-intake-calculator",
+      "destination": "/sodium-intake-calculator/index.html"
+    },
+    {
+      "source": "/caffeine-calculator",
+      "destination": "/caffeine-calculator/index.html"
+    },
+    {
+      "source": "/alcohol-calorie-calculator",
+      "destination": "/alcohol-calorie-calculator/index.html"
+    },
+    {
+      "source": "/macro-split-calculator",
+      "destination": "/macro-split-calculator/index.html"
+    },
+    {
+      "source": "/intermittent-fasting-calculator",
+      "destination": "/intermittent-fasting-calculator/index.html"
+    },
+    {
+      "source": "/keto-calculator",
+      "destination": "/keto-calculator/index.html"
+    },
+    {
+      "source": "/height-calculator",
+      "destination": "/height-calculator/index.html"
+    },
+    {
+      "source": "/gdp-calculator",
+      "destination": "/gdp-calculator/index.html"
+    },
+    {
+      "source": "/density-calculator",
+      "destination": "/density-calculator/index.html"
+    },
+    {
+      "source": "/mass-calculator",
+      "destination": "/mass-calculator/index.html"
+    },
+    {
+      "source": "/weight-calculator",
+      "destination": "/weight-calculator/index.html"
+    },
+    {
+      "source": "/speed-calculator",
+      "destination": "/speed-calculator/index.html"
+    },
+    {
+      "source": "/molarity-calculator",
+      "destination": "/molarity-calculator/index.html"
+    },
+    {
+      "source": "/molecular-weight-calculator",
+      "destination": "/molecular-weight-calculator/index.html"
+    },
+    {
+      "source": "/roman-numeral-converter",
+      "destination": "/roman-numeral-converter/index.html"
+    },
+    {
+      "source": "/voltage-drop-calculator",
+      "destination": "/voltage-drop-calculator/index.html"
+    },
+    {
+      "source": "/resistor-calculator",
+      "destination": "/resistor-calculator/index.html"
+    },
+    {
+      "source": "/ohms-law-calculator",
+      "destination": "/ohms-law-calculator/index.html"
+    },
+    {
+      "source": "/electricity-calculator",
+      "destination": "/electricity-calculator/index.html"
+    },
+    {
+      "source": "/bandwidth-calculator",
+      "destination": "/bandwidth-calculator/index.html"
+    },
+    {
+      "source": "/base64-tool",
+      "destination": "/base64-tool/index.html"
+    },
+    {
+      "source": "/url-encode-tool",
+      "destination": "/url-encode-tool/index.html"
+    },
+    {
+      "source": "/bra-size-calculator",
+      "destination": "/bra-size-calculator/index.html"
+    },
+    {
+      "source": "/shoe-size-calculator",
+      "destination": "/shoe-size-calculator/index.html"
+    },
+    {
+      "source": "/tip-calculator",
+      "destination": "/tip-calculator/index.html"
+    },
+    {
+      "source": "/golf-handicap-calculator",
+      "destination": "/golf-handicap-calculator/index.html"
+    },
+    {
+      "source": "/sleep-calculator",
+      "destination": "/sleep-calculator/index.html"
+    },
+    {
+      "source": "/wind-chill-calculator",
+      "destination": "/wind-chill-calculator/index.html"
+    },
+    {
+      "source": "/heat-index-calculator",
+      "destination": "/heat-index-calculator/index.html"
+    },
+    {
+      "source": "/dew-point-calculator",
+      "destination": "/dew-point-calculator/index.html"
+    },
+    {
+      "source": "/fuel-cost-calculator",
+      "destination": "/fuel-cost-calculator/index.html"
+    },
+    {
+      "source": "/gas-mileage-calculator",
+      "destination": "/gas-mileage-calculator/index.html"
+    },
+    {
+      "source": "/horsepower-calculator",
+      "destination": "/horsepower-calculator/index.html"
+    },
+    {
+      "source": "/engine-horsepower-calculator",
+      "destination": "/engine-horsepower-calculator/index.html"
+    },
+    {
+      "source": "/mileage-calculator",
+      "destination": "/mileage-calculator/index.html"
+    },
+    {
+      "source": "/tire-size-calculator",
+      "destination": "/tire-size-calculator/index.html"
+    },
+    {
+      "source": "/dice-roller",
+      "destination": "/dice-roller/index.html"
+    },
+    {
+      "source": "/love-calculator",
+      "destination": "/love-calculator/index.html"
+    },
+    {
+      "source": "/financial-calculators",
+      "destination": "/financial-calculators/index.html"
+    },
+    {
+      "source": "/health-calculators",
+      "destination": "/health-calculators/index.html"
+    },
+    {
+      "source": "/math-calculators",
+      "destination": "/math-calculators/index.html"
+    },
+    {
+      "source": "/search",
+      "destination": "/search/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/how-to-calculate-your-freelance-hourly-rate-in-2026",
+      "destination": "/blog/how-to-calculate-your-freelance-hourly-rate-in-2026/index.html"
+    },
+    {
+      "source": "/blog/how-much-does-fiverr-take-from-sellers-in-2026",
+      "destination": "/blog/how-much-does-fiverr-take-from-sellers-in-2026/index.html"
+    },
+    {
+      "source": "/blog/how-to-calculate-your-youtube-earnings-in-2026",
+      "destination": "/blog/how-to-calculate-your-youtube-earnings-in-2026/index.html"
+    },
+    {
+      "source": "/blog/how-to-calculate-bmi-complete-guide",
+      "destination": "/blog/how-to-calculate-bmi-complete-guide/index.html"
+    },
+    {
+      "source": "/blog/how-to-calculate-break-even-point-for-your-online-store",
+      "destination": "/blog/how-to-calculate-break-even-point-for-your-online-store/index.html"
+    },
+    {
+      "source": "/blog/how-to-calculate-your-dropshipping-profit-margins",
+      "destination": "/blog/how-to-calculate-your-dropshipping-profit-margins/index.html"
+    },
+    {
+      "source": "/blog/how-to-use-free-online-calculators-for-smarter-money-decisions",
+      "destination": "/blog/how-to-use-free-online-calculators-for-smarter-money-decisions/index.html"
+    },
+    {
+      "source": "/blog/which-health-calculator-should-you-use-for-your-goal",
+      "destination": "/blog/which-health-calculator-should-you-use-for-your-goal/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/our-standards",
+      "destination": "/our-standards/index.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/index.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
