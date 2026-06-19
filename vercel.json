@@ -1,4 +1,17 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "calchive.site"
+        }
+      ],
+      "destination": "https://www.calchive.site/:path*",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/freelance-hourly-rate-calculator",
@@ -1173,6 +1186,26 @@
       "destination": "/blog/index.html"
     },
     {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/our-standards",
+      "destination": "/our-standards/index.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/index.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms/index.html"
+    },
+    {
       "source": "/blog/how-to-calculate-your-freelance-hourly-rate-in-2026",
       "destination": "/blog/how-to-calculate-your-freelance-hourly-rate-in-2026/index.html"
     },
@@ -1205,24 +1238,16 @@
       "destination": "/blog/which-health-calculator-should-you-use-for-your-goal/index.html"
     },
     {
-      "source": "/about",
-      "destination": "/about/index.html"
+      "source": "/blog/freelance-hourly-rate-2026-complete-guide",
+      "destination": "/blog/freelance-hourly-rate-2026-complete-guide/index.html"
     },
     {
-      "source": "/contact",
-      "destination": "/contact/index.html"
+      "source": "/blog/youtube-earnings-calculator-how-much-youtube-pays-2026",
+      "destination": "/blog/youtube-earnings-calculator-how-much-youtube-pays-2026/index.html"
     },
     {
-      "source": "/our-standards",
-      "destination": "/our-standards/index.html"
-    },
-    {
-      "source": "/privacy-policy",
-      "destination": "/privacy-policy/index.html"
-    },
-    {
-      "source": "/terms",
-      "destination": "/terms/index.html"
+      "source": "/blog/bmi-calculator-what-bmi-score-means-health",
+      "destination": "/blog/bmi-calculator-what-bmi-score-means-health/index.html"
     },
     {
       "source": "/(.*)",
