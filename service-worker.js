@@ -1,4 +1,4 @@
-const CACHE_VERSION = "calchive-pwa-v4";
+const CACHE_VERSION = "calchive-pwa-v6";
 const ROUTE_CACHE = `${CACHE_VERSION}-routes`;
 const ASSET_CACHE = `${CACHE_VERSION}-assets`;
 

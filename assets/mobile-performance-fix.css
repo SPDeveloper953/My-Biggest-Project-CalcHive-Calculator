@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  section[aria-label$="reference and guide"],
+  .calchive-seo-table-wrap,
+  main article,
+  main .prose,
+  main [class*="grid"] > article,
+  main [class*="grid"] > a {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 720px;
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
+
+  img:not([width]):not([height]) {
+    aspect-ratio: 1 / 1;
+    height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .001ms !important;
+  }
+}

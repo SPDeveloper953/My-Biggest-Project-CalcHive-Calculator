@@ -1,4 +1,4 @@
-import{j as e}from"./react-vendor-dPJNWl6a.js";import{aL as r}from"./home-sections-BL7QUrV8.js";import{S as s}from"./SEOHead-BkI9GR3E.js";import{S as a}from"./StaticPageMotion-Cnl9TtTi.js";import"./router-B-zBcJCg.js";import"./index-GdrkE-GI.js";
+import{j as e}from"./react-vendor-dPJNWl6a.js";import{aL as r}from"./home-sections-BL7QUrV8.js";import{S as s}from"./SEOHead-BkI9GR3E.js";import{S as a}from"./StaticPageMotion-Cnl9TtTi.js";import"./router-B-zBcJCg.js";import"./index-HomeDivideFix.js";
 const n="June 2026";
 function t({title:o,children:i}){return e.jsxs("section",{className:"mb-10",children:[e.jsx("h2",{className:"text-xl font-bold text-foreground mb-4 pb-2 border-b border-border",children:o}),e.jsx("div",{className:"space-y-3 text-sm text-muted-foreground leading-relaxed",children:i})]})}
 function l({href:o,children:i}){return e.jsx("a",{href:o,target:o.startsWith("http")?"_blank":void 0,rel:o.startsWith("http")?"noopener noreferrer":void 0,className:"text-primary hover:underline",children:i})}
