@@ -1,0 +1,11 @@
+{
+  "name": "calchive-seo-tools",
+  "version": "1.0.0",
+  "description": "Tools to generate and apply SEO titles, descriptions, and FAQ schema to CalcHive static pages.",
+  "scripts": {
+    "generate-seo": "node scripts/generate-seo.js"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
