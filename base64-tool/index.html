@@ -303,6 +303,15 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Base64 used for?","acceptedAnswer":{"@type":"Answer","text":"Transmitting binary data through text-only channels: email attachments, data URLs, JSON payloads, HTTP Basic Auth, and crypto keys."}},
+{"@type":"Question","name":"Is Base64 encryption?","acceptedAnswer":{"@type":"Answer","text":"No. It's encoding, not encryption. Anyone can decode it. Never use Base64 to protect sensitive data."}},
+{"@type":"Question","name":"How does Base64 work?","acceptedAnswer":{"@type":"Answer","text":"3 bytes (24 bits) split into four 6-bit values, each mapped to one of 64 characters. Input not multiple of 3 = padding with =."}},
+{"@type":"Question","name":"What is the overhead?","acceptedAnswer":{"@type":"Answer","text":"33.3% increase. A 3 MB image = ~4 MB Base64. Only recommended for small data."}},
+{"@type":"Question","name":"Can Base64 be decoded?","acceptedAnswer":{"@type":"Answer","text":"Yes, it's reversible. Online decoders, base64 -d, and built-in functions in most languages can restore the original data."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +377,36 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Base64 Tool summary">
+                    <section class="ch-prerender-seo" aria-label="Base64 Tool - Guide & Reference">
             <h1>Base64 Tool</h1>
-            <p>Base64 Tool is part of CalcHive's Internet collection and is built for people who need a fast, clear, privacy-conscious way to understand base64. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for base64 without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this page helps with</h2>
-            <p>The Base64 Tool page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/base64-tool, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Base64. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Base64 Tool FAQ</h2>
+            <p>Base64 encodes binary data as ASCII using A-Z, a-z, 0-9, +, /. Used for email attachments (MIME), data URLs in HTML/CSS, and binary data in JSON.</p>
+            <p>Increases data size by ~33% (3 bytes binary = 4 ASCII characters). Base64 is encoding, not encryption - provides no security.</p>
+            <h2>Common Base64 Use Cases</h2>
+            <p>Embedding small images (under 1-2 KB) as data URLs in CSS reduces HTTP requests. For larger files, the 33% overhead makes separate serving more efficient.</p>
+            <h2>Base64 Tool: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Use Case</th><th style="padding:8px;border:1px solid #e2e8f0">Description</th><th style="padding:8px;border:1px solid #e2e8f0">Context</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Email attachments</td><td style="padding:8px;border:1px solid #e2e8f0">MIME encodes binary</td><td style="padding:8px;border:1px solid #e2e8f0">SMTP</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Data URLs</td><td style="padding:8px;border:1px solid #e2e8f0">Embed images in HTML/CSS</td><td style="padding:8px;border:1px solid #e2e8f0">Web dev</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">JSON binary transport</td><td style="padding:8px;border:1px solid #e2e8f0">Binary in JSON payloads</td><td style="padding:8px;border:1px solid #e2e8f0">REST APIs</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Auth tokens</td><td style="padding:8px;border:1px solid #e2e8f0">Basic auth credentials</td><td style="padding:8px;border:1px solid #e2e8f0">HTTP headers</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Crypto keys</td><td style="padding:8px;border:1px solid #e2e8f0">Printable key strings</td><td style="padding:8px;border:1px solid #e2e8f0">TLS/SSH/PGP</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">QR codes</td><td style="padding:8px;border:1px solid #e2e8f0">Binary in QR format</td><td style="padding:8px;border:1px solid #e2e8f0">Mobile</td></tr>
+              </tbody>
+            </table>
+            <h2>Base64 Tool - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Base64 Tool free to use?</dt>
-              <dd>Yes. CalcHive keeps this page free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/base64-tool, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Base64 inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Base64, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Base64?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>What is Base64 used for?</dt>
+              <dd>Transmitting binary data through text-only channels: email attachments, data URLs, JSON payloads, HTTP Basic Auth, and crypto keys.</dd>
+              <dt>Is Base64 encryption?</dt>
+              <dd>No. It's encoding, not encryption. Anyone can decode it. Never use Base64 to protect sensitive data.</dd>
+              <dt>How does Base64 work?</dt>
+              <dd>3 bytes (24 bits) split into four 6-bit values, each mapped to one of 64 characters. Input not multiple of 3 = padding with =.</dd>
+              <dt>What is the overhead?</dt>
+              <dd>33.3% increase. A 3 MB image = ~4 MB Base64. Only recommended for small data.</dd>
+              <dt>Can Base64 be decoded?</dt>
+              <dd>Yes, it's reversible. Online decoders, base64 -d, and built-in functions in most languages can restore the original data.</dd>
             </dl>
           </section>
       </div>

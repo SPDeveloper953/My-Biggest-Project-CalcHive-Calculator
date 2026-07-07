@@ -303,6 +303,15 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How to convert binary to decimal?","acceptedAnswer":{"@type":"Answer","text":"Multiply each digit by its power of 2 (rightmost = 2\u2070). 1101 = 8+4+0+1 = 13."}},
+{"@type":"Question","name":"How does binary addition work?","acceptedAnswer":{"@type":"Answer","text":"0+0=0, 0+1=1, 1+0=1, 1+1=0 carry 1. 1101+0110 = 10011 (19)."}},
+{"@type":"Question","name":"Why do computers use binary?","acceptedAnswer":{"@type":"Answer","text":"Transistors have two states: on/off. Binary is the simplest to implement reliably in hardware."}},
+{"@type":"Question","name":"Binary vs octal vs hexadecimal?","acceptedAnswer":{"@type":"Answer","text":"Binary = base-2 (0-1), octal = base-8 (0-7), hex = base-16 (0-9,A-F). Each hex digit = 4 binary bits, more compact."}},
+{"@type":"Question","name":"How to convert decimal to binary?","acceptedAnswer":{"@type":"Answer","text":"Repeatedly divide by 2, record remainders backward. 25 = 11001."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +377,46 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Binary Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="Binary Calculator - Guide & Reference">
             <h1>Binary Calculator</h1>
-            <p>Binary Calculator is part of CalcHive's Math collection and is built for people who need a fast, clear, privacy-conscious way to calculate binary. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for binary without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The Binary Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/binary-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Binary. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Binary Calculator FAQ</h2>
+            <p>Binary uses only digits 0 and 1, fundamental to all digital computing. Every piece of computer data is ultimately binary. This calculator performs binary arithmetic and converts between binary, decimal, and hexadecimal.</p>
+            <p>Binary 1101 = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ = 13 decimal. Binary addition: 1+1=10 (not 2).</p>
+            <h2>Binary Equivalents of Decimal 0-15</h2>
+            <p>Hexadecimal is a human-readable binary shorthand: each hex digit = 4 binary bits. Byte 11110101 binary = F5 hex.</p>
+            <h2>Binary Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Decimal</th><th style="padding:8px;border:1px solid #e2e8f0">Binary</th><th style="padding:8px;border:1px solid #e2e8f0">Hexadecimal</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">0</td><td style="padding:8px;border:1px solid #e2e8f0">0000</td><td style="padding:8px;border:1px solid #e2e8f0">0</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">1</td><td style="padding:8px;border:1px solid #e2e8f0">0001</td><td style="padding:8px;border:1px solid #e2e8f0">1</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">2</td><td style="padding:8px;border:1px solid #e2e8f0">0010</td><td style="padding:8px;border:1px solid #e2e8f0">2</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">3</td><td style="padding:8px;border:1px solid #e2e8f0">0011</td><td style="padding:8px;border:1px solid #e2e8f0">3</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">4</td><td style="padding:8px;border:1px solid #e2e8f0">0100</td><td style="padding:8px;border:1px solid #e2e8f0">4</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">5</td><td style="padding:8px;border:1px solid #e2e8f0">0101</td><td style="padding:8px;border:1px solid #e2e8f0">5</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">6</td><td style="padding:8px;border:1px solid #e2e8f0">0110</td><td style="padding:8px;border:1px solid #e2e8f0">6</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">7</td><td style="padding:8px;border:1px solid #e2e8f0">0111</td><td style="padding:8px;border:1px solid #e2e8f0">7</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">8</td><td style="padding:8px;border:1px solid #e2e8f0">1000</td><td style="padding:8px;border:1px solid #e2e8f0">8</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">9</td><td style="padding:8px;border:1px solid #e2e8f0">1001</td><td style="padding:8px;border:1px solid #e2e8f0">9</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">10</td><td style="padding:8px;border:1px solid #e2e8f0">1010</td><td style="padding:8px;border:1px solid #e2e8f0">A</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">11</td><td style="padding:8px;border:1px solid #e2e8f0">1011</td><td style="padding:8px;border:1px solid #e2e8f0">B</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">12</td><td style="padding:8px;border:1px solid #e2e8f0">1100</td><td style="padding:8px;border:1px solid #e2e8f0">C</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">13</td><td style="padding:8px;border:1px solid #e2e8f0">1101</td><td style="padding:8px;border:1px solid #e2e8f0">D</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">14</td><td style="padding:8px;border:1px solid #e2e8f0">1110</td><td style="padding:8px;border:1px solid #e2e8f0">E</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">15</td><td style="padding:8px;border:1px solid #e2e8f0">1111</td><td style="padding:8px;border:1px solid #e2e8f0">F</td></tr>
+              </tbody>
+            </table>
+            <h2>Binary Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Binary Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/binary-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Binary inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Binary, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Binary?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>How to convert binary to decimal?</dt>
+              <dd>Multiply each digit by its power of 2 (rightmost = 2⁰). 1101 = 8+4+0+1 = 13.</dd>
+              <dt>How does binary addition work?</dt>
+              <dd>0+0=0, 0+1=1, 1+0=1, 1+1=0 carry 1. 1101+0110 = 10011 (19).</dd>
+              <dt>Why do computers use binary?</dt>
+              <dd>Transistors have two states: on/off. Binary is the simplest to implement reliably in hardware.</dd>
+              <dt>Binary vs octal vs hexadecimal?</dt>
+              <dd>Binary = base-2 (0-1), octal = base-8 (0-7), hex = base-16 (0-9,A-F). Each hex digit = 4 binary bits, more compact.</dd>
+              <dt>How to convert decimal to binary?</dt>
+              <dd>Repeatedly divide by 2, record remainders backward. 25 = 11001.</dd>
             </dl>
           </section>
       </div>

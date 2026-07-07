@@ -303,6 +303,15 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"BMR vs TDEE?","acceptedAnswer":{"@type":"Answer","text":"BMR = calories at complete rest (vital functions only). TDEE = BMR + all daily activity, exercise, and digestion. TDEE is what you need to maintain weight. To lose weight, eat below TDEE."}},
+{"@type":"Question","name":"Does BMR decrease when dieting?","acceptedAnswer":{"@type":"Answer","text":"Yes. Significant calorie restriction causes metabolic adaptation. The body lowers BMR to conserve energy. This is why weight loss often slows after initial rapid loss. Strength training helps preserve muscle and BMR during dieting."}},
+{"@type":"Question","name":"What raises your BMR?","acceptedAnswer":{"@type":"Answer","text":"Muscle mass is the biggest controllable factor - each pound of muscle burns ~6-7 calories/day at rest. Other factors: being male (more muscle), younger age, taller height, higher body temperature, and certain medical conditions like hyperthyroidism."}},
+{"@type":"Question","name":"How accurate is BMR calculation?","acceptedAnswer":{"@type":"Answer","text":"The Mifflin-St Jeor equation is accurate within about 10% for 80% of the population. Individual BMR varies due to genetics, muscle mass, and hormonal factors. The best way to find your actual BMR is through indirect calorimetry testing."}},
+{"@type":"Question","name":"Why is women's BMR lower than men's?","acceptedAnswer":{"@type":"Answer","text":"Women typically have lower BMR because they have more body fat and less muscle mass than men of the same weight and height. On average, a woman's BMR is 5-10% lower than a man's. The Mifflin-St Jeor formula accounts for this with the -161 constant."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +377,35 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="BMR Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="BMR Calculator - Guide & Reference">
             <h1>BMR Calculator</h1>
-            <p>BMR Calculator is part of CalcHive's Health collection and is built for people who need a fast, clear, privacy-conscious way to calculate bmr. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for bmr without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The BMR Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/bmr-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on BMR. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>BMR Calculator FAQ</h2>
+            <p>Basal Metabolic Rate (BMR) is the number of calories your body burns at complete rest to maintain vital functions like breathing, circulation, and cell production. The Mifflin-St Jeor equation is the current gold standard, replacing the older Harris-Benedict formula.</p>
+            <p>For men: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age) + 5. For women: BMR = (10 × weight in kg) + (6.25 × height in cm) - (5 × age) - 161. A 30-year-old woman weighing 65 kg at 165 cm has a BMR of approximately 1,392 calories per day.</p>
+            <h2>From BMR to TDEE: Activity Multipliers</h2>
+            <p>Total Daily Energy Expenditure (TDEE) = BMR × activity factor. A moderately active woman with a BMR of 1,392 needs about 2,158 calories daily to maintain weight. Runners who weigh more burn more calories at the same pace due to the increased energy required to move more mass.</p>
+            <h2>BMR Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Activity Level</th><th style="padding:8px;border:1px solid #e2e8f0">Description</th><th style="padding:8px;border:1px solid #e2e8f0">Multiplier</th><th style="padding:8px;border:1px solid #e2e8f0">Example (BMR 1,400)</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Sedentary</td><td style="padding:8px;border:1px solid #e2e8f0">Little or no exercise</td><td style="padding:8px;border:1px solid #e2e8f0">1.2</td><td style="padding:8px;border:1px solid #e2e8f0">1,680 cal</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Lightly active</td><td style="padding:8px;border:1px solid #e2e8f0">1-3 days/week</td><td style="padding:8px;border:1px solid #e2e8f0">1.375</td><td style="padding:8px;border:1px solid #e2e8f0">1,925 cal</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Moderately active</td><td style="padding:8px;border:1px solid #e2e8f0">3-5 days/week</td><td style="padding:8px;border:1px solid #e2e8f0">1.55</td><td style="padding:8px;border:1px solid #e2e8f0">2,170 cal</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Very active</td><td style="padding:8px;border:1px solid #e2e8f0">6-7 days/week</td><td style="padding:8px;border:1px solid #e2e8f0">1.725</td><td style="padding:8px;border:1px solid #e2e8f0">2,415 cal</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Extremely active</td><td style="padding:8px;border:1px solid #e2e8f0">Athlete/physical job</td><td style="padding:8px;border:1px solid #e2e8f0">1.9</td><td style="padding:8px;border:1px solid #e2e8f0">2,660 cal</td></tr>
+              </tbody>
+            </table>
+            <h2>BMR Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the BMR Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/bmr-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my BMR inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on BMR, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck BMR?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>BMR vs TDEE?</dt>
+              <dd>BMR = calories at complete rest (vital functions only). TDEE = BMR + all daily activity, exercise, and digestion. TDEE is what you need to maintain weight. To lose weight, eat below TDEE.</dd>
+              <dt>Does BMR decrease when dieting?</dt>
+              <dd>Yes. Significant calorie restriction causes metabolic adaptation. The body lowers BMR to conserve energy. This is why weight loss often slows after initial rapid loss. Strength training helps preserve muscle and BMR during dieting.</dd>
+              <dt>What raises your BMR?</dt>
+              <dd>Muscle mass is the biggest controllable factor - each pound of muscle burns ~6-7 calories/day at rest. Other factors: being male (more muscle), younger age, taller height, higher body temperature, and certain medical conditions like hyperthyroidism.</dd>
+              <dt>How accurate is BMR calculation?</dt>
+              <dd>The Mifflin-St Jeor equation is accurate within about 10% for 80% of the population. Individual BMR varies due to genetics, muscle mass, and hormonal factors. The best way to find your actual BMR is through indirect calorimetry testing.</dd>
+              <dt>Why is women's BMR lower than men's?</dt>
+              <dd>Women typically have lower BMR because they have more body fat and less muscle mass than men of the same weight and height. On average, a woman's BMR is 5-10% lower than a man's. The Mifflin-St Jeor formula accounts for this with the -161 constant.</dd>
             </dl>
           </section>
       </div>

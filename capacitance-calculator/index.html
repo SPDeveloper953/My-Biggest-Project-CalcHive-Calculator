@@ -303,6 +303,14 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is capacitance?","acceptedAnswer":{"@type":"Answer","text":"Capacitance is the ability to store electrical charge, measured in farads (F). A capacitor consists of two conductive plates separated by an insulator (dielectric). When voltage is applied, charge accumulates on the plates, storing energy in the electric field."}},
+{"@type":"Question","name":"How do you add capacitors in parallel vs series?","acceptedAnswer":{"@type":"Answer","text":"Parallel: C_total = C\u2081 + C\u2082 + ... (like adding resistors in series). Series: 1/C_total = 1/C\u2081 + 1/C\u2082 + ... (like adding resistors in parallel). The formulas are reversed compared with resistors."}},
+{"@type":"Question","name":"What is a Farad?","acceptedAnswer":{"@type":"Answer","text":"One farad stores one coulomb of charge at one volt. It is a very large unit: a typical electronics capacitor is 0.000001 F (1 \u00b5F). Supercapacitors can reach thousands of farads for energy storage applications."}},
+{"@type":"Question","name":"What are typical capacitor values?","acceptedAnswer":{"@type":"Answer","text":"Common values: 0.1 \u00b5F (decoupling), 10 \u00b5F (power supply), 100 \u00b5F (audio), 1000 \u00b5F (power filtering), 1 nF (timing), 10 pF (RF circuits). Ceramic, electrolytic, and film capacitors have different characteristics for different applications."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +376,33 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Capacitance Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="Capacitance Calculator - Guide & Reference">
             <h1>Capacitance Calculator</h1>
-            <p>Capacitance Calculator is part of CalcHive's Science collection and is built for people who need a fast, clear, privacy-conscious way to calculate capacitance. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for capacitance without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The Capacitance Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/capacitance-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Capacitance. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Capacitance Calculator FAQ</h2>
+            <p>Capacitance measures a component's ability to store electrical charge, measured in farads (F). Practical capacitors use microfarads (µF = 10⁻⁶ F), nanofarads (nF = 10⁻⁹ F), and picofarads (pF = 10⁻¹² F). A 10 µF capacitor stores 10 millionths of a farad.</p>
+            <p>Capacitors in series: 1/C_total = 1/C₁ + 1/C₂ + ... (total is less than any individual). Capacitors in parallel: C_total = C₁ + C₂ + ... (total is the sum). Two 10 µF capacitors in series give 5 µF total; in parallel they give 20 µF.</p>
+            <h2>Capacitance Units and Conversions</h2>
+            <p>A 47 µF capacitor with 10 V across it stores 0.00235 joules of energy (E = ½CV²). Supercapacitors used in regenerative braking can store 3,000 F at 2.7 V, holding 10,935 J - equivalent to a 10 kg weight dropped from 111 meters.</p>
+            <h2>Capacitance Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Unit</th><th style="padding:8px;border:1px solid #e2e8f0">Symbol</th><th style="padding:8px;border:1px solid #e2e8f0">Value in Farads</th><th style="padding:8px;border:1px solid #e2e8f0">Common Use</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Farad</td><td style="padding:8px;border:1px solid #e2e8f0">F</td><td style="padding:8px;border:1px solid #e2e8f0">1 F</td><td style="padding:8px;border:1px solid #e2e8f0">Large supercapacitors</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Millifarad</td><td style="padding:8px;border:1px solid #e2e8f0">mF</td><td style="padding:8px;border:1px solid #e2e8f0">10⁻³ F</td><td style="padding:8px;border:1px solid #e2e8f0">Rarely used</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Microfarad</td><td style="padding:8px;border:1px solid #e2e8f0">µF</td><td style="padding:8px;border:1px solid #e2e8f0">10⁻⁶ F</td><td style="padding:8px;border:1px solid #e2e8f0">Power supply filters</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Nanofarad</td><td style="padding:8px;border:1px solid #e2e8f0">nF</td><td style="padding:8px;border:1px solid #e2e8f0">10⁻⁹ F</td><td style="padding:8px;border:1px solid #e2e8f0">Timing circuits</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Picofarad</td><td style="padding:8px;border:1px solid #e2e8f0">pF</td><td style="padding:8px;border:1px solid #e2e8f0">10⁻¹² F</td><td style="padding:8px;border:1px solid #e2e8f0">RF and tuning circuits</td></tr>
+              </tbody>
+            </table>
+            <h2>Capacitance Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Capacitance Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/capacitance-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Capacitance inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Capacitance, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Capacitance?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>What is capacitance?</dt>
+              <dd>Capacitance is the ability to store electrical charge, measured in farads (F). A capacitor consists of two conductive plates separated by an insulator (dielectric). When voltage is applied, charge accumulates on the plates, storing energy in the electric field.</dd>
+              <dt>How do you add capacitors in parallel vs series?</dt>
+              <dd>Parallel: C_total = C₁ + C₂ + ... (like adding resistors in series). Series: 1/C_total = 1/C₁ + 1/C₂ + ... (like adding resistors in parallel). The formulas are reversed compared with resistors.</dd>
+              <dt>What is a Farad?</dt>
+              <dd>One farad stores one coulomb of charge at one volt. It is a very large unit: a typical electronics capacitor is 0.000001 F (1 µF). Supercapacitors can reach thousands of farads for energy storage applications.</dd>
+              <dt>What are typical capacitor values?</dt>
+              <dd>Common values: 0.1 µF (decoupling), 10 µF (power supply), 100 µF (audio), 1000 µF (power filtering), 1 nF (timing), 10 pF (RF circuits). Ceramic, electrolytic, and film capacitors have different characteristics for different applications.</dd>
             </dl>
           </section>
       </div>

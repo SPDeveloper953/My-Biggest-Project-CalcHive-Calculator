@@ -303,6 +303,15 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How is exact age calculated?","acceptedAnswer":{"@type":"Answer","text":"Subtract birth date from target date, borrowing days from months and months from years as needed. The result shows years, months, and days."}},
+{"@type":"Question","name":"Born on Feb 29?","acceptedAnswer":{"@type":"Answer","text":"Treated as Feb 28 or March 1 in non-leap years. Legal age of 21 reached on March 1 in non-leap years."}},
+{"@type":"Question","name":"How many days old am I?","acceptedAnswer":{"@type":"Answer","text":"Years \u00d7 365 + leap days lived through. A 30-year-old born after Feb 28, 1996, is about 10,957 days old."}},
+{"@type":"Question","name":"What is the legal age of majority?","acceptedAnswer":{"@type":"Answer","text":"18 in most US states and Europe. 18 in Japan (reduced from 20 in 2022). 21 for drinking in the US."}},
+{"@type":"Question","name":"Can I calculate any date difference?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use it for project deadlines, relationship duration, time between historical events, or days until retirement."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +377,35 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Age Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="Age Calculator - Guide & Reference">
             <h1>Age Calculator</h1>
-            <p>Age Calculator is part of CalcHive's Tools collection and is built for people who need a fast, clear, privacy-conscious way to calculate age. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for age without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The Age Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/age-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Age. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Age Calculator FAQ</h2>
+            <p>Calculates exact age in years, months, and days between two dates. Handles leap years (divisible by 4, 100, 400). Born March 15, 1990: on July 6, 2026, you are 36 years, 3 months, 21 days old.</p>
+            <p>Subtracts dates component by component, borrowing days from the previous month or a full year when needed. Precise to the exact day for legal and medical purposes.</p>
+            <h2>Age Unit Conversions and Practical Uses</h2>
+            <p>30 years = ~10,957 days (including ~7-8 leap days), ~1,565 weeks, or 360 months. Exact day count is needed for medication dosages, age eligibility, and milestone tracking.</p>
+            <h2>Age Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Unit</th><th style="padding:8px;border:1px solid #e2e8f0">Value per Year</th><th style="padding:8px;border:1px solid #e2e8f0">At Age 30</th><th style="padding:8px;border:1px solid #e2e8f0">Common Use</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Days</td><td style="padding:8px;border:1px solid #e2e8f0">365 (366 in leap)</td><td style="padding:8px;border:1px solid #e2e8f0">~10,957</td><td style="padding:8px;border:1px solid #e2e8f0">Medical dosing</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Weeks</td><td style="padding:8px;border:1px solid #e2e8f0">52.1775</td><td style="padding:8px;border:1px solid #e2e8f0">~1,565</td><td style="padding:8px;border:1px solid #e2e8f0">Pregnancy tracking</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Months</td><td style="padding:8px;border:1px solid #e2e8f0">12</td><td style="padding:8px;border:1px solid #e2e8f0">360</td><td style="padding:8px;border:1px solid #e2e8f0">General reporting</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Hours</td><td style="padding:8px;border:1px solid #e2e8f0">8,760</td><td style="padding:8px;border:1px solid #e2e8f0">~262,944</td><td style="padding:8px;border:1px solid #e2e8f0">Employment history</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Years</td><td style="padding:8px;border:1px solid #e2e8f0">1</td><td style="padding:8px;border:1px solid #e2e8f0">30</td><td style="padding:8px;border:1px solid #e2e8f0">Standard age</td></tr>
+              </tbody>
+            </table>
+            <h2>Age Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Age Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/age-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Age inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Age, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Age?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>How is exact age calculated?</dt>
+              <dd>Subtract birth date from target date, borrowing days from months and months from years as needed. The result shows years, months, and days.</dd>
+              <dt>Born on Feb 29?</dt>
+              <dd>Treated as Feb 28 or March 1 in non-leap years. Legal age of 21 reached on March 1 in non-leap years.</dd>
+              <dt>How many days old am I?</dt>
+              <dd>Years × 365 + leap days lived through. A 30-year-old born after Feb 28, 1996, is about 10,957 days old.</dd>
+              <dt>What is the legal age of majority?</dt>
+              <dd>18 in most US states and Europe. 18 in Japan (reduced from 20 in 2022). 21 for drinking in the US.</dd>
+              <dt>Can I calculate any date difference?</dt>
+              <dd>Yes. Use it for project deadlines, relationship duration, time between historical events, or days until retirement.</dd>
             </dl>
           </section>
       </div>

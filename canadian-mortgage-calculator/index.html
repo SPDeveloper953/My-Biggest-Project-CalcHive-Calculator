@@ -303,6 +303,14 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How is Canadian mortgage interest calculated differently?","acceptedAnswer":{"@type":"Answer","text":"Canadian mortgages compound semi-annually (every 6 months) rather than monthly. This means the effective annual rate is slightly higher than the stated rate. A 5.5% stated rate with semi-annual compounding has an effective annual rate of about 5.57%."}},
+{"@type":"Question","name":"What is CMHC mortgage insurance?","acceptedAnswer":{"@type":"Answer","text":"CMHC (Canada Mortgage and Housing Corporation) insurance protects the lender if you default. It is required when your down payment is less than 20% of the purchase price. The premium is added to your mortgage balance, ranging from 2.8-4.0% of the loan amount."}},
+{"@type":"Question","name":"What is the stress test rate in Canada?","acceptedAnswer":{"@type":"Answer","text":"You must qualify at the greater of 2% above your contract rate or 5.25%. If your contract rate is 5.5%, you must qualify at 7.5%. This means your income must support payments at 7.5%, not 5.5%, to get approved."}},
+{"@type":"Question","name":"What is the maximum amortization period in Canada?","acceptedAnswer":{"@type":"Answer","text":"As of 2024, the maximum amortization for insured mortgages (under 20% down) is 25 years. Uninsured mortgages (20%+ down) can go up to 30 years. Shorter amortization means higher payments but significantly less total interest."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +376,32 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Canadian Mortgage Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="Canadian Mortgage Calculator - Guide & Reference">
             <h1>Canadian Mortgage Calculator</h1>
-            <p>Canadian Mortgage Calculator is part of CalcHive's Financial collection and is built for people who need a fast, clear, privacy-conscious way to calculate canadian mortgage. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for canadian mortgage without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The Canadian Mortgage Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/canadian-mortgage-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Canadian Mortgage. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Canadian Mortgage Calculator FAQ</h2>
+            <p>Canadian mortgages differ from US mortgages in several ways: interest is compounded semi-annually (not monthly), the maximum standard amortization is 25 years (reduced from 30 years for insured mortgages as of 2024), and CMHC insurance is required for down payments under 20%. The stress test requires qualification at 2 percentage points above the contract rate or 5.25%, whichever is higher.</p>
+            <p>A $500,000 mortgage at 5.5% over 25 years with 5% down ($25,000) requires CMHC insurance (4% of loan amount for 5% down = $19,000 added to the mortgage). The effective mortgage becomes $494,000, with a monthly payment of approximately $2,984. The same mortgage with 20% down avoids CMHC insurance entirely.</p>
+            <h2>CMHC Insurance Premiums by Down Payment</h2>
+            <p>The stress test means a borrower at 5.5% contract rate must qualify at 7.5%. A household needs ~$120,000 annual income to qualify for a $500,000 mortgage at 7.5% over 25 years. At 5.5%, the income requirement drops to ~$95,000.</p>
+            <h2>Canadian Mortgage Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Down Payment</th><th style="padding:8px;border:1px solid #e2e8f0">CMHC Premium Rate</th><th style="padding:8px;border:1px solid #e2e8f0">Premium on $500K</th><th style="padding:8px;border:1px solid #e2e8f0">Monthly (5.5%, 25yr)</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">5%</td><td style="padding:8px;border:1px solid #e2e8f0">4.00%</td><td style="padding:8px;border:1px solid #e2e8f0">$19,000</td><td style="padding:8px;border:1px solid #e2e8f0">$2,984</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">10%</td><td style="padding:8px;border:1px solid #e2e8f0">3.10%</td><td style="padding:8px;border:1px solid #e2e8f0">$13,950</td><td style="padding:8px;border:1px solid #e2e8f0">$2,905</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">15%</td><td style="padding:8px;border:1px solid #e2e8f0">2.80%</td><td style="padding:8px;border:1px solid #e2e8f0">$11,900</td><td style="padding:8px;border:1px solid #e2e8f0">$2,889</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">20%+</td><td style="padding:8px;border:1px solid #e2e8f0">0%</td><td style="padding:8px;border:1px solid #e2e8f0">$0</td><td style="padding:8px;border:1px solid #e2e8f0">$2,839</td></tr>
+              </tbody>
+            </table>
+            <h2>Canadian Mortgage Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Canadian Mortgage Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/canadian-mortgage-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Canadian Mortgage inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Canadian Mortgage, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Canadian Mortgage?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>How is Canadian mortgage interest calculated differently?</dt>
+              <dd>Canadian mortgages compound semi-annually (every 6 months) rather than monthly. This means the effective annual rate is slightly higher than the stated rate. A 5.5% stated rate with semi-annual compounding has an effective annual rate of about 5.57%.</dd>
+              <dt>What is CMHC mortgage insurance?</dt>
+              <dd>CMHC (Canada Mortgage and Housing Corporation) insurance protects the lender if you default. It is required when your down payment is less than 20% of the purchase price. The premium is added to your mortgage balance, ranging from 2.8-4.0% of the loan amount.</dd>
+              <dt>What is the stress test rate in Canada?</dt>
+              <dd>You must qualify at the greater of 2% above your contract rate or 5.25%. If your contract rate is 5.5%, you must qualify at 7.5%. This means your income must support payments at 7.5%, not 5.5%, to get approved.</dd>
+              <dt>What is the maximum amortization period in Canada?</dt>
+              <dd>As of 2024, the maximum amortization for insured mortgages (under 20% down) is 25 years. Uninsured mortgages (20%+ down) can go up to 30 years. Shorter amortization means higher payments but significantly less total interest.</dd>
             </dl>
           </section>
       </div>

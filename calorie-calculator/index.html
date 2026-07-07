@@ -303,6 +303,14 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How many calories should a woman eat?","acceptedAnswer":{"@type":"Answer","text":"Depends on age, height, weight, and activity. Average: 1,800-2,400 for maintenance. Women aged 31-50: 1,800-2,200 if sedentary, 2,000-2,400 if active. Minimum without medical supervision: 1,200 cal/day."}},
+{"@type":"Question","name":"How many calories to lose 10 pounds?","acceptedAnswer":{"@type":"Answer","text":"A 3,500 calorie deficit per pound means a total deficit of 35,000 calories. At a 500 cal/day deficit, this takes about 10 weeks. At 1,000 cal/day, about 5 weeks. Sustainable loss is 1-2 lbs per week."}},
+{"@type":"Question","name":"Is 1,200 calories enough?","acceptedAnswer":{"@type":"Answer","text":"1,200 calories is the minimum for most women without medical supervision. Very few people should go below this. Active women, tall women, and most men need significantly more. Chronic undereating causes metabolic adaptation and nutrient deficiencies."}},
+{"@type":"Question","name":"Should I eat back exercise calories?","acceptedAnswer":{"@type":"Answer","text":"Most calorie estimates already include activity multipliers. Adding back 100-200 calories for intense workouts is reasonable. Adding back full calorie burn estimates is not recommended because fitness trackers overestimate burn by 20-40%."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +376,32 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Calorie Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="Calorie Calculator - Guide & Reference">
             <h1>Calorie Calculator</h1>
-            <p>Calorie Calculator is part of CalcHive's Health collection and is built for people who need a fast, clear, privacy-conscious way to calculate calorie. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for calorie without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The Calorie Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/calorie-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Calorie. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Calorie Calculator FAQ</h2>
+            <p>This calculator estimates Total Daily Energy Expenditure (TDEE) using the Mifflin-St Jeor equation, the most accurate formula for the general population. TDEE = BMR × activity multiplier. For a 28-year-old woman weighing 65 kg at 168 cm with moderate activity (3-5 days/week): BMR = 1,392, TDEE = 1,392 × 1.55 = 2,158 calories per day.</p>
+            <p>To lose 1 lb per week (3,500 calorie deficit), subtract 500 calories from TDEE: this woman would eat ~1,658 calories/day. To gain muscle, she would add 300-500 calories. A lb of body fat represents approximately 3,500 calories, though individual results vary.</p>
+            <h2>Calorie Adjustments for Common Goals</h2>
+            <p>A male with TDEE of 2,800 wanting to gain muscle at 0.5 lb/week adds 250 cal/day (2,800 to 3,050). Over 12 weeks, this surplus of 21,000 calories yields about 6 lbs gained (assuming ~50% muscle, ~50% fat) with proper strength training.</p>
+            <h2>Calorie Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Goal</th><th style="padding:8px;border:1px solid #e2e8f0">Calorie Adjustment</th><th style="padding:8px;border:1px solid #e2e8f0">Example: TDEE 2,200</th><th style="padding:8px;border:1px solid #e2e8f0">Expected Rate</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Lose 2 lbs/week</td><td style="padding:8px;border:1px solid #e2e8f0">-1,000 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">1,200 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">Aggressive (not for everyone)</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Lose 1 lb/week</td><td style="padding:8px;border:1px solid #e2e8f0">-500 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">1,700 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">Sustainable</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Maintain weight</td><td style="padding:8px;border:1px solid #e2e8f0">TDEE</td><td style="padding:8px;border:1px solid #e2e8f0">2,200 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">Stable weight</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Gain muscle</td><td style="padding:8px;border:1px solid #e2e8f0">+300-500 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">2,500-2,700 cal/day</td><td style="padding:8px;border:1px solid #e2e8f0">~0.5-1 lb/week</td></tr>
+              </tbody>
+            </table>
+            <h2>Calorie Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Calorie Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/calorie-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Calorie inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Calorie, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Calorie?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>How many calories should a woman eat?</dt>
+              <dd>Depends on age, height, weight, and activity. Average: 1,800-2,400 for maintenance. Women aged 31-50: 1,800-2,200 if sedentary, 2,000-2,400 if active. Minimum without medical supervision: 1,200 cal/day.</dd>
+              <dt>How many calories to lose 10 pounds?</dt>
+              <dd>A 3,500 calorie deficit per pound means a total deficit of 35,000 calories. At a 500 cal/day deficit, this takes about 10 weeks. At 1,000 cal/day, about 5 weeks. Sustainable loss is 1-2 lbs per week.</dd>
+              <dt>Is 1,200 calories enough?</dt>
+              <dd>1,200 calories is the minimum for most women without medical supervision. Very few people should go below this. Active women, tall women, and most men need significantly more. Chronic undereating causes metabolic adaptation and nutrient deficiencies.</dd>
+              <dt>Should I eat back exercise calories?</dt>
+              <dd>Most calorie estimates already include activity multipliers. Adding back 100-200 calories for intense workouts is reasonable. Adding back full calorie burn estimates is not recommended because fitness trackers overestimate burn by 20-40%.</dd>
             </dl>
           </section>
       </div>

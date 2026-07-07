@@ -303,6 +303,15 @@
     <script defer src="/assets/content-uniqueness-fix.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413981239899860"
      crossorigin="anonymous"></script>
+      <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is CPM?","acceptedAnswer":{"@type":"Answer","text":"Cost per mille = price advertisers pay per 1,000 impressions. $12 CPM = $12 per 1,000 ad displays."}},
+{"@type":"Question","name":"CPM vs RPM?","acceptedAnswer":{"@type":"Answer","text":"CPM is the advertiser rate. RPM is what publishers actually earn after network cuts. $10 CPM with 30% network cut = $7 RPM."}},
+{"@type":"Question","name":"What is a good CPM?","acceptedAnswer":{"@type":"Answer","text":"Depends on niche. Finance: $15-40. Entertainment: $2-5. General blogs: $5-10. US/UK traffic earns much higher rates than other regions."}},
+{"@type":"Question","name":"Which niche earns highest CPM?","acceptedAnswer":{"@type":"Answer","text":"Finance/investing at $30-50. B2B SaaS, legal, and medical topics also command above-average rates due to high audience purchasing power."}},
+{"@type":"Question","name":"Does layout affect ad revenue?","acceptedAnswer":{"@type":"Answer","text":"Yes. Above-fold ads, sticky units, and more pages per visit boost revenue. Excessive ads hurt UX and are penalized by Google. 2-3 ad units per page is standard."}}
+]}
+    </script>
   </head>
   <body>
     <div id="root">
@@ -368,31 +377,36 @@
             <aside class="ch-static-card ch-static-side" aria-hidden="true"></aside>
           </div>
         </main>
-          <section class="ch-prerender-seo" aria-label="Ad Revenue Calculator summary">
+                    <section class="ch-prerender-seo" aria-label="Ad Revenue Calculator - Guide & Reference">
             <h1>Ad Revenue Calculator</h1>
-            <p>Ad Revenue Calculator is part of CalcHive's Income collection and is built for people who need a fast, clear, privacy-conscious way to calculate ad revenue. The page is designed to open directly at its own canonical URL, so search engines and visitors can identify it as a dedicated resource instead of a duplicate of the homepage.</p>
-            <p>Use this page when you want a focused answer for ad revenue without creating an account or sending your calculator inputs to a server. CalcHive calculators run in the browser, which keeps the experience quick on mobile and desktop while preserving the interactive features visitors expect after the React app loads.</p>
-            <h2>What this calculator helps with</h2>
-            <p>The Ad Revenue Calculator page is written for a specific use case: checking inputs, reviewing the result, and understanding what the numbers mean in plain language. Its metadata, heading, canonical tag, Open Graph URL, and supporting copy all point to https://www.calchive.site/ad-revenue-calculator, which helps separate this URL from other CalcHive pages in search results.</p>
-            <p>Compared with a generic calculator directory page, this route focuses on Ad Revenue. That means the examples, frequently asked questions, and page description are tied to the task behind this tool rather than repeating the same homepage text. This gives Google a stronger signal that the page has its own purpose and should be evaluated on its own.</p>
-            <h2>Ad Revenue Calculator FAQ</h2>
+            <p>Display ad revenue = (Page Views × CPM) / 1,000. A site with 100,000 monthly views at $10 CPM earns $1,000/month. Actual earnings depend on niche, audience location, and ad placement.</p>
+            <p>CPM (cost per mille) is the advertiser rate. RPM (revenue per mille) is what publishers earn after the ad network's cut and unsold inventory. Finance blogs command $25-50 RPM; entertainment sites see $3-8.</p>
+            <h2>CPM Benchmarks by Content Niche</h2>
+            <p>A lifestyle blog with 200,000 monthly views at $5 RPM earns $1,000/month. A finance site with the same traffic at $25 RPM earns $5,000. Niche selection matters as much as traffic.</p>
+            <h2>Ad Revenue Calculator: Key Reference</h2>
+            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px">
+              <thead><tr style="background:#f1f5f9;text-align:left"><th style="padding:8px;border:1px solid #e2e8f0">Content Niche</th><th style="padding:8px;border:1px solid #e2e8f0">Typical CPM Range</th><th style="padding:8px;border:1px solid #e2e8f0">Typical RPM Range</th></tr></thead>
+              <tbody>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Finance & Investing</td><td style="padding:8px;border:1px solid #e2e8f0">$15-$40</td><td style="padding:8px;border:1px solid #e2e8f0">$10-$30</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Technology & SaaS</td><td style="padding:8px;border:1px solid #e2e8f0">$10-$25</td><td style="padding:8px;border:1px solid #e2e8f0">$6-$18</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Health & Fitness</td><td style="padding:8px;border:1px solid #e2e8f0">$8-$20</td><td style="padding:8px;border:1px solid #e2e8f0">$5-$14</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Entertainment & Humor</td><td style="padding:8px;border:1px solid #e2e8f0">$2-$5</td><td style="padding:8px;border:1px solid #e2e8f0">$1-$4</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Lifestyle & Travel</td><td style="padding:8px;border:1px solid #e2e8f0">$5-$12</td><td style="padding:8px;border:1px solid #e2e8f0">$3-$8</td></tr>
+                <tr><td style="padding:8px;border:1px solid #e2e8f0">Education</td><td style="padding:8px;border:1px solid #e2e8f0">$6-$15</td><td style="padding:8px;border:1px solid #e2e8f0">$4-$10</td></tr>
+              </tbody>
+            </table>
+            <h2>Ad Revenue Calculator - Frequently Asked Questions</h2>
             <dl>
-              <dt>Is the Ad Revenue Calculator free to use?</dt>
-              <dd>Yes. CalcHive keeps this calculator free, mobile-friendly, and available without signup.</dd>
-              <dt>Does this page have its own canonical URL?</dt>
-              <dd>Yes. The canonical URL for this page is https://www.calchive.site/ad-revenue-calculator, matching the address visitors and crawlers should use.</dd>
-              <dt>Are my Ad Revenue inputs stored on CalcHive servers?</dt>
-              <dd>No. Calculator inputs are handled in the browser wherever possible and are not used to create an account profile.</dd>
-              <dt>Why is this page different from other CalcHive calculators?</dt>
-              <dd>This page focuses on Ad Revenue, while other routes cover different finance, health, math, creator, measurement, or everyday tasks.</dd>
-              <dt>Can I open this page directly from Google?</dt>
-              <dd>Yes. This static HTML file is generated for the route so crawlers can read its title, description, canonical tag, and page summary before JavaScript runs.</dd>
-              <dt>Should I treat the result as professional advice?</dt>
-              <dd>No. CalcHive is educational and informational. For financial, legal, medical, or safety decisions, confirm results with a qualified professional.</dd>
-              <dt>Does the page work on phones?</dt>
-              <dd>Yes. CalcHive is built for responsive use, and the interactive calculator continues to load normally after the app script runs.</dd>
-              <dt>How often should I recheck Ad Revenue?</dt>
-              <dd>Recheck whenever your inputs, assumptions, rates, measurements, or goals change, because small changes can affect the final result.</dd>
+              <dt>What is CPM?</dt>
+              <dd>Cost per mille = price advertisers pay per 1,000 impressions. $12 CPM = $12 per 1,000 ad displays.</dd>
+              <dt>CPM vs RPM?</dt>
+              <dd>CPM is the advertiser rate. RPM is what publishers actually earn after network cuts. $10 CPM with 30% network cut = $7 RPM.</dd>
+              <dt>What is a good CPM?</dt>
+              <dd>Depends on niche. Finance: $15-40. Entertainment: $2-5. General blogs: $5-10. US/UK traffic earns much higher rates than other regions.</dd>
+              <dt>Which niche earns highest CPM?</dt>
+              <dd>Finance/investing at $30-50. B2B SaaS, legal, and medical topics also command above-average rates due to high audience purchasing power.</dd>
+              <dt>Does layout affect ad revenue?</dt>
+              <dd>Yes. Above-fold ads, sticky units, and more pages per visit boost revenue. Excessive ads hurt UX and are penalized by Google. 2-3 ad units per page is standard.</dd>
             </dl>
           </section>
       </div>
