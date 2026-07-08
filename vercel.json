@@ -12,23 +12,6 @@
       "statusCode": 301
     }
   ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "query",
-          "key": "cat"
-        }
-      ],
-      "headers": [
-        {
-          "key": "x-robots-tag",
-          "value": "noindex, follow"
-        }
-      ]
-    }
-  ],
   "rewrites": [
     {
       "source": "/freelance-hourly-rate-calculator",
