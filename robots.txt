@@ -9,6 +9,8 @@ Disallow: /__vite/
 Disallow: /@vite/
 Disallow: /@fs/
 Disallow: /src/
+Disallow: /*?cat=
+Disallow: /*?*
 
 # AI search and LLM crawlers: explicitly permitted
 User-agent: GPTBot
@@ -49,5 +51,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://www.calchive.site/sitemap.xml
-
-
